@@ -1,0 +1,582 @@
+,Fuel Type Code,Station Name,Street Address,City,EV Level2 EVSE Num,EV Network,Latitude,Longitude,ID,EV Connector Types,Facility Type,EV Pricing
+0,CNG,Clean Energy - Greenpoint - National Grid,287 Maspeth Ave,Brooklyn,,,40.718037,-73.932309,108,,UTILITY,
+1,CNG,Canarsie - National Grid,8424 Ditmas Ave,Brooklyn,,,40.64554,-73.918344,112,,UTILITY,
+2,CNG,Con Edison - W 29th St Service Center,281 11th Ave,New York,,,40.752903,-74.005831,124,,UTILITY,
+3,CNG,Con Edison - E 16th St Service Center,700 E 16th St,New York,,,40.729175,-73.97331,125,,UTILITY,
+4,CNG,Con Edison - Van Nest Service Center,1615 Bronxdale Ave,Bronx,,,40.8441883,-73.8615724,129,,UTILITY,
+5,CNG,Con Edison - College Point Service Center,124-15 31st Ave,Queens,,,40.769623,-73.843069,132,,UTILITY,
+6,CNG,Bronx Zoo,2300 Southern Blvd,Bronx,,,40.850018,-73.878128,32837,,OTHER_ENTERTAINMENT,
+7,CNG,Trillium - MTA New York City Transit - West Farms/Coliseum Depot,1100 E 177th St,Bronx,,,40.838672,-73.877566,32838,,FLEET_GARAGE,
+8,CNG,Trillium - MTA - Spring Creek,12755 Flatlands Ave,Brooklyn,,,40.661038,-73.864438,32839,,FLEET_GARAGE,
+9,CNG,Trillium - MTA New York City Transit - Jackie Gleason Bus Depot,871 5th Ave,Brooklyn,,,40.6529,-74.0023,32840,,FLEET_GARAGE,
+10,CNG,Manhattan Beer,955 E 149th St,Bronx,,,40.808151,-73.902589,35060,,FLEET_GARAGE,
+11,ELEC,James J Peters VA Medical Center,130 W Kingsbridge Rd,Bronx,2.0,Non-Networked,40.867403,-73.906405,41240,J1772,HOSPITAL,$0.13 per kWh
+12,ELEC,Bay Ridge Nissan,6501 5th Ave,Brooklyn,1.0,Non-Networked,40.636324,-74.019228,44327,J1772,CAR_DEALER,Free
+13,ELEC,Bay Ridge Nissan,6501 5th Ave,Brooklyn,1.0,Non-Networked,40.636324,-74.019228,44328,J1772,CAR_DEALER,
+14,ELEC,Kings Nissan,2758 Coney Island Ave,Brooklyn,1.0,Non-Networked,40.589167,-73.960707,44329,J1772,CAR_DEALER,Free
+15,ELEC,Kings Nissan,2758 Coney Island Ave,Brooklyn,1.0,Non-Networked,40.589167,-73.960707,44330,J1772,CAR_DEALER,
+16,E85,JFK Airport Travel Plaza - National Grid - Clean Energy,150th Ave & 147th St,Queens,,,40.66297896114984,-73.7921584550171,61345,,TRAVEL_CENTER,
+17,ELEC,Dana Ford Lincoln,266 W Service Rd,Staten Island,1.0,Non-Networked,40.587162,-74.194747,64140,J1772,CAR_DEALER,Free
+18,ELEC,Port Authority Bus Terminal,625 8th Ave,New York,2.0,EV Connect,40.756177,-73.990558,65287,J1772,PARKING_GARAGE,
+19,ELEC,Bay Ridge Municipal Parking Garage,8501 5th Ave,Brooklyn,5.0,EV Connect,40.62215,-74.02565,65288,J1772,PAY_GARAGE,Free
+20,ELEC,Court Square Municipal Parking Garage,45 Court Square,Queens,9.0,EV Connect,40.745358,-73.942642,65290,J1772,PARKING_LOT,Free
+21,ELEC,East 149th Street Municipal Parking Garage,315 E 149th St,Bronx,3.0,EV Connect,40.817326,-73.920914,65291,J1772,PARKING_LOT,Free
+22,ELEC,Saint George Courthouse,54 Central Ave,Staten Island,5.0,EV Connect,40.63947,-74.076912,65296,J1772,PARKING_LOT,
+23,ELEC,United Parcel Service,643 W 43rd St,New York,2.0,Non-Networked,40.762442,-74.000055,74648,J1772,FLEET_GARAGE,
+24,CNG,Clean Energy - Bronx NY,1361 Ryawa Ave,Bronx,,,40.805695,-73.880803,77158,,STANDALONE_STATION,
+25,E85,Conoco,1121 Pennsylvania Ave,Brooklyn,,,40.653468,-73.886256,79194,,CONVENIENCE_STORE,
+26,CNG,Trillium,750-770 Zerega Ave,Bronx,,,40.82289,-73.841375,79256,,STANDALONE_STATION,
+27,ELEC,Parking Garage,2478 Jerome Ave,Bronx,1.0,EV Connect,40.863131,-73.900529,94830,J1772,PAY_GARAGE,
+28,ELEC,Parking Garage,59 Paidge Ave,Brooklyn,10.0,EV Connect,40.737171,-73.949257,94831,J1772,PAY_GARAGE,
+29,ELEC,Brooklyn Navy Yard,63 Flushing Ave,Brooklyn,8.0,EV Connect,40.698235,-73.975114,94832,J1772,MUNI_GOV,
+30,ELEC,Delancey & Essex Municipal Parking Garage,107 Essex St,Manhattan,5.0,EV Connect,40.719051,-73.988181,94848,J1772,MUNI_GOV,
+31,ELEC,Spectrum,401 W 219th St,New York,8.0,EV Connect,40.87121,-73.911616,94854,J1772,OFFICE_BLDG,
+32,ELEC,Spectrum,100 Cable Way,Staten Island,2.0,EV Connect,40.630898,-74.168358,94861,J1772,OFFICE_BLDG,
+33,ELEC,Central Parking - Tower 31,9 W 31st Street,New York,1.0,Blink Network,40.747098,-73.986641,95069,J1772,,Level 2: $0.59 per kWh
+34,ELEC,Tribeca Park,400 Chambers St,New York,2.0,Blink Network,40.717717,-74.015049,96646,J1772,,Level 2: $0.59 per kWh
+35,ELEC,Environmental Protection Agency,290 Broadway,New York,5.0,Non-Networked,40.714723,-74.005143,98674,J1772,FED_GOV,
+36,ELEC,Nissan of Staten Island,1976 Hylan Blvd,Staten Island,1.0,Non-Networked,40.581432,-74.097694,99500,J1772,CAR_DEALER,Free
+37,ELEC,North 12 Parking (at the William Vale) - Tesla Supercharger,113 N. 12th Street,Brooklyn,,Tesla,40.721853,-73.956658,102327,TESLA,,$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW
+38,ELEC,Mott Street Parking - Tesla Supercharger,106 Mott Street,New York,,Tesla,40.717522,-73.997302,102334,TESLA,,$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW
+39,ELEC,W 75th Parking Garage - Tesla Supercharger,201 W 75th Street,New York,,Tesla,40.780976,-73.980414,102335,TESLA,,$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW
+40,ELEC,E 47th Street - Tesla Supercharger,212 East 47th Street,New York,,Tesla,40.753356,-73.971685,102336,TESLA,,$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW
+41,ELEC,JFK Airport Travel Plaza - Tesla Supercharger,150th Ave and 147th St,Queens,,Tesla,40.66179,-73.79282,102341,TESLA,,$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW
+42,ELEC,WCS NS1 BOSTON RD,Boston Rd,Bronx,1.0,ChargePoint Network,40.846205,-73.876513,104341,J1772,,
+43,ELEC,Century Parking Corp - Tesla Destination,2600 Netherland Ave,Bronx,4.0,Tesla Destination,40.878611,-73.914792,114888,TESLA,PAY_GARAGE,Free
+44,ELEC,Standard Parking 1360 Fulton Street - Tesla Destination,1360  Fulton St,Brooklyn,2.0,Tesla Destination,40.679983,-73.946504,114889,TESLA,PAY_GARAGE,Free
+45,ELEC,Standard Parking 15 Metrotech - Tesla Destination,15 Metrotech Ctr S,Brooklyn,3.0,Tesla Destination,40.693317,-73.9871,114890,J1772 TESLA,PAY_GARAGE,Free
+46,ELEC,Quik Park Armory Parking Inc. - Tesla Destination,172 Vanderbilt,Brooklyn,2.0,Tesla Destination,40.692372,-73.969893,114891,TESLA,PAY_GARAGE,Free
+47,ELEC,Discount Parking 180 Ashland Place - Tesla Destination,180 Ashland Pl,Brooklyn,2.0,Tesla Destination,40.689411,-73.978741,114892,TESLA,PAY_GARAGE,Free
+48,ELEC,iPark 22/34 N 6th Garage Corp - Tesla Destination,22 N 5th St,Brooklyn,4.0,Tesla Destination,40.718794,-73.962594,114893,J1772 TESLA,PAY_GARAGE,Free
+49,ELEC,iPark 247 N 7th Street - Tesla Destination,249 N 7th St,Brooklyn,3.0,Tesla Destination,40.716085,-73.954508,114894,J1772 TESLA,PAY_GARAGE,Free
+50,ELEC,Parkright 257 Gold Street - Tesla Destination,257  Gold St,Brooklyn,3.0,Tesla Destination,40.696871,-73.983002,114895,J1772 TESLA,HOTEL,Free
+51,ELEC,Standard Parking Pierepoint Plaza - Tesla Destination,300 Cadman,Brooklyn,3.0,Tesla Destination,40.695115,-73.990993,114896,J1772 TESLA,PAY_GARAGE,Free
+52,ELEC,Enterprise 309 Gold Street - Tesla Destination,309 Gold St,Brooklyn,3.0,Tesla Destination,40.695013,-73.982843,114897,J1772 TESLA,HOTEL,Free
+53,ELEC,iPark NYC 2234 North 6th - Tesla Destination,34 North 6th St,Brooklyn,3.0,Tesla Destination,40.719756,-73.962933,114898,J1772 TESLA,PAY_GARAGE,Free
+54,ELEC,Standard Parking 1 Metrotech - Tesla Destination,351 Jay St,Brooklyn,3.0,Tesla Destination,40.693216,-73.986716,114900,J1772 TESLA,PAY_GARAGE,Free
+55,ELEC,GGMC Belltel Car Park - Tesla Destination,356  Bridge St,Brooklyn,3.0,Tesla Destination,40.692645,-73.985451,114901,J1772 TESLA,PAY_GARAGE,Free
+56,ELEC,Quik Park 365 Management LLC - Tesla Destination,365 Bond St,Brooklyn,3.0,Tesla Destination,40.677433,-73.990299,114902,J1772 TESLA,PAY_GARAGE,Free
+57,ELEC,GMC 388 Bridge Street - Tesla Destination,388 Bridge St,Brooklyn,3.0,Tesla Destination,40.691652,-73.985733,114903,TESLA,PAY_GARAGE,Free
+58,ELEC,Quik Park Brooklyn Bridge LLC - Tesla Destination,4 Joralemon St,Brooklyn,3.0,Tesla Destination,40.693949,-74.00025,114904,J1772 TESLA,PAY_GARAGE,Free
+59,ELEC,Rapidpark 44 State Street - Tesla Destination,44 State St,Brooklyn,3.0,Tesla Destination,40.691871,-73.998307,114905,J1772 TESLA,PAY_GARAGE,Free
+60,ELEC,Park Kwik LLC 50 Washington St. - Tesla Destination,45 Main St,Brooklyn,3.0,Tesla Destination,40.702769,-73.990584,114906,J1772 TESLA,PAY_GARAGE,Free
+61,ELEC,Kings County Parking - Tesla Destination,581 Clarkson Ave,Brooklyn,2.0,Tesla Destination,40.656148,-73.940355,114907,TESLA,PAY_GARAGE,Free
+62,ELEC,1 Hotel Brooklyn Bridge - Tesla Destination,60 Furman St,Brooklyn,7.0,Tesla Destination,40.702241,-73.995539,114908,J1772 TESLA,HOTEL,Free
+63,ELEC,City Parking Linc Garage - Tesla Destination,62 Northside Piers,Brooklyn,3.0,Tesla Destination,40.71955,-73.96413,114909,J1772 TESLA,PAY_GARAGE,Free
+64,ELEC,"Littleman Driggs Parking, LLC - Tesla Destination",626  Driggs Ave,Brooklyn,3.0,Tesla Destination,40.715405,-73.958638,114910,J1772 TESLA,PAY_GARAGE,Free
+65,ELEC,GGMC Parking 66 Rockwell Pl Garage - Tesla Destination,66 Rockwell Pl,Brooklyn,3.0,Tesla Destination,40.68806,-73.979449,114911,J1772 TESLA,PAY_GARAGE,Free
+66,ELEC,Standard Parking 200 Cadman Plaza West - Tesla Destination,75 Henry St,Brooklyn,3.0,Tesla Destination,40.698807,-73.991859,114912,J1772 TESLA,PAY_GARAGE,Free
+67,ELEC,GGMC Parking 75 Smith St Garage - Tesla Destination,75 Smith St,Brooklyn,3.0,Tesla Destination,40.688799,-73.988642,114913,J1772 TESLA,PAY_GARAGE,Free
+68,ELEC,Standard Parking 2 Metrotech - Tesla Destination,8 Metrotech Ctr S,Brooklyn,3.0,Tesla Destination,40.692919,-73.987193,114914,J1772 TESLA,PAY_GARAGE,Free
+69,ELEC,Quik Park 81 Fleet Place LLC - Tesla Destination,81 Fleet Pl,Brooklyn,3.0,Tesla Destination,40.693208,-73.981326,114915,J1772 TESLA,PAY_GARAGE,Free
+70,ELEC,Rapidpark 906 Union Street - Tesla Destination,906 Union St,Brooklyn,3.0,Tesla Destination,40.672726,-73.971664,114916,J1772 TESLA,PAY_GARAGE,Free
+71,ELEC,MPG 100 Jay Street - Tesla Destination,100 Jay St,Brooklyn,3.0,Tesla Destination,40.702004,-73.987053,114917,J1772 TESLA,PAY_GARAGE,Free
+72,ELEC,imPark 101 Bedford Ave - Tesla Destination,101  Bedford Ave,Brooklyn,3.0,Tesla Destination,40.720014,-73.95455,114918,J1772 TESLA,PAY_GARAGE,Free
+73,ELEC,The William Vale Hotel - Tesla Destination,111 N 12th St,Brooklyn,4.0,Tesla Destination,40.722362,-73.957208,114919,TESLA,HOTEL,Free
+74,ELEC,Icon Parking 235 W 48th - Tesla Destination,235 W 48th St,Manhattan,4.0,Tesla Destination,40.760856,-73.986218,114972,TESLA,PAY_GARAGE,Free
+75,ELEC,Icon Parking 360 E 65th - Tesla Destination,360 E 65th St,Manhattan,4.0,Tesla Destination,40.763564,-73.960236,114973,TESLA,PAY_GARAGE,Free
+76,ELEC,Icon Parking 205 E 63rd St - Tesla Destination,205  E 63rd St,Manhattan,2.0,Tesla Destination,40.764174,-73.964533,114974,TESLA,PAY_GARAGE,Free
+77,ELEC,MPG 10 E 102nd Street - Tesla Destination,10 E 102nd St,New York,3.0,Tesla Destination,40.791232,-73.95237,114983,J1772 TESLA,PAY_GARAGE,Free
+78,ELEC,Rapidpark 10 E 30th Street - Tesla Destination,10 E 30th St,New York,3.0,Tesla Destination,40.745384,-73.985704,114984,J1772 TESLA,PAY_GARAGE,Free
+79,ELEC,Icon Parking 1056 5th Avenue - Tesla Destination,10 E 87th St,New York,3.0,Tesla Destination,40.782031,-73.959484,114985,J1772 TESLA,PAY_GARAGE,Free
+80,ELEC,iPark 10 West 15th - Tesla Destination,10 W 15th,New York,3.0,Tesla Destination,40.736754,-73.993789,114986,J1772 TESLA,PAY_GARAGE,Free
+81,ELEC,GGMC Parking 10 W 66th St Garage - Tesla Destination,10 W 66th St,New York,2.0,Tesla Destination,40.772308,-73.978966,114987,TESLA,PAY_GARAGE,Free
+82,ELEC,GGMC Parking Union Square Parking Garage - Tesla Destination,100 E 15th St,New York,6.0,Tesla Destination,40.734817,-73.989198,114988,J1772 TESLA,PAY_GARAGE,Free
+83,ELEC,Icon Parking 100 Riverside Blvd. - Tesla Destination,100 Riverside Blvd,New York,3.0,Tesla Destination,40.775704,-73.989483,114989,J1772 TESLA,PAY_GARAGE,Free
+84,ELEC,Rapidpark 600 Columbus Ave - Tesla Destination,100 W 89th,New York,3.0,Tesla Destination,40.788305,-73.971353,114990,J1772 TESLA,PAY_GARAGE,Free
+85,ELEC,Champion Parking E 16th Street - Tesla Destination,101  E 16th St,New York,3.0,Tesla Destination,40.736116,-73.989322,114991,J1772 TESLA,PAY_GARAGE,Free
+86,ELEC,Icon Parking 101 W 15th - Tesla Destination,101 W 15th St,New York,4.0,Tesla Destination,40.738352,-73.996519,114992,TESLA,PAY_GARAGE,Free
+87,ELEC,iPark NYC 88th Street Garage - Tesla Destination,101 W 88th St,New York,3.0,Tesla Destination,40.787976,-73.971145,114993,J1772 TESLA,PAY_GARAGE,Free
+88,ELEC,Icon Parking 101 West End Ave - Tesla Destination,101 West End Ave,New York,3.0,Tesla Destination,40.775188,-73.988501,114994,J1772 TESLA,PAY_GARAGE,Free
+89,ELEC,ABM Parking 475 Park Ave South LLC - Tesla Destination,104  E 32nd St,New York,2.0,Tesla Destination,40.745497,-73.98208,114995,TESLA,PAY_GARAGE,Free
+90,ELEC,Rapidpark 99 Park Ave - Tesla Destination,105 E 39th,New York,3.0,Tesla Destination,40.750254,-73.978627,114996,J1772 TESLA,PAY_GARAGE,Free
+91,ELEC,iPark 107 West 13th Street - Tesla Destination,107 W 13th St,New York,3.0,Tesla Destination,40.737094,-73.997754,114997,J1772 TESLA,PAY_GARAGE,Free
+92,ELEC,Icon Parking 11 5th Ave - Tesla Destination,11 5th Ave,New York,3.0,Tesla Destination,40.732257,-73.99608,114998,J1772 TESLA,PAY_GARAGE,Free
+93,ELEC,iPark NYC 1025 83rd - Tesla Destination,11 E 83rd St,New York,3.0,Tesla Destination,40.779468,-73.961086,114999,J1772 TESLA,PAY_GARAGE,Free
+94,ELEC,GMC 111 E 82nd St - Tesla Destination,111 E 82nd St,New York,3.0,Tesla Destination,40.777545,-73.958471,115000,J1772 TESLA,PAY_GARAGE,Free
+95,ELEC,iPark 112 E 65th Street - Tesla Destination,112 E 65th St,New York,3.0,Tesla Destination,40.766174,-73.966419,115001,J1772 TESLA,PAY_GARAGE,Free
+96,ELEC,Quik Park 1133 Garage LLC - Tesla Destination,1133 6th Ave,New York,3.0,Tesla Destination,40.756071,-73.98392,115002,J1772 TESLA,PAY_GARAGE,Free
+97,ELEC,iPark 1510 Lex Garage Corp. - Tesla Destination,116 E 98th St,New York,3.0,Tesla Destination,40.787343,-73.951003,115003,TESLA,PAY_GARAGE,Free
+98,ELEC,ABM Parking 750 Lexington Ave LLC - Tesla Destination,118 E 60th St,New York,3.0,Tesla Destination,40.762806,-73.9687,115004,TESLA,PAY_GARAGE,Free
+99,ELEC,Icon Parking 12 East 9th Street - Tesla Destination,12 E 9th St,New York,3.0,Tesla Destination,40.732324,-73.99517,115005,J1772 TESLA,PAY_GARAGE,Free
+100,ELEC,MPG 121 Reade Street - Tesla Destination,121 Reade St,New York,3.0,Tesla Destination,40.716208,-74.009488,115006,J1772 TESLA,PAY_GARAGE,Free
+101,ELEC,GMC Parking Narragansett - Tesla Destination,124 E 63rd St,New York,3.0,Tesla Destination,40.764767,-73.967021,115007,J1772 TESLA,PAY_GARAGE,Free
+102,ELEC,Rapidpark 124 W 20th Street - Tesla Destination,124  W 20th St,New York,3.0,Tesla Destination,40.741371,-73.995533,115008,J1772 TESLA,HOTEL,Free
+103,ELEC,Quik Park Garden Lots LLC - Tesla Destination,126 West 32nd St,New York,3.0,Tesla Destination,40.748789,-73.989915,115009,J1772 TESLA,PAY_GARAGE,Free
+104,ELEC,ABM Parking 13 East 54th Street LLC - Tesla Destination,13-17 E 54th St,New York,2.0,Tesla Destination,40.761051,-73.974877,115010,TESLA,PAY_GARAGE,Free
+105,ELEC,New York Hilton Midtown - Tesla Destination,1335 Avenue of the Americas,New York,4.0,Tesla Destination,40.762445,-73.97971,115011,J1772 TESLA,HOTEL,Free
+106,ELEC,1345 Parking Garage - Tesla Destination,1345 6th Ave,New York,3.0,Tesla Destination,40.76351,-73.979364,115012,J1772 TESLA,PAY_GARAGE,Free
+107,ELEC,Icon Parking 1350 Avenue of the Americas - Tesla Destination,1350 6th Ave,New York,3.0,Tesla Destination,40.762653,-73.977846,115013,J1772 TESLA,PAY_GARAGE,Free
+108,ELEC,Icon Parking 14-26 William Street - Tesla Destination,14-26 William St,New York,3.0,Tesla Destination,40.704976,-74.009682,115014,J1772 TESLA,PAY_GARAGE,Free
+109,ELEC,Icon Parking OMNI - Tesla Destination,143-159 W 68th St,New York,3.0,Tesla Destination,40.775545,-73.9818,115015,J1772 TESLA,PAY_GARAGE,Free
+110,ELEC,Rapidpark 148 E 33rd Street - Tesla Destination,148 E 33rd St,New York,3.0,Tesla Destination,40.745236,-73.979736,115016,J1772 TESLA,PAY_GARAGE,Free
+111,ELEC,Rapidpark 15 W 72nd Street - Tesla Destination,15 W 72nd St,New York,3.0,Tesla Destination,40.777008,-73.97689,115017,J1772 TESLA,PAY_GARAGE,Free
+112,ELEC,Icon Parking 150 Charles Street - Tesla Destination,150 Charles St,New York,3.0,Tesla Destination,40.733633,-74.009239,115018,J1772 TESLA,PAY_GARAGE,Free
+113,ELEC,Icon Parking 150 E 58th Street - Tesla Destination,150 E 58th St,New York,3.0,Tesla Destination,40.76161,-73.96775,115019,J1772 TESLA,PAY_GARAGE,Free
+114,ELEC,Rapidpark 150 East 77th Street - Tesla Destination,150 E 77th St,New York,3.0,Tesla Destination,40.773472,-73.95992,115020,J1772 TESLA,PAY_GARAGE,Free
+115,ELEC,Standard Parking 151 W 17th Street - Tesla Destination,151 W 17th St,New York,3.0,Tesla Destination,40.740728,-73.997493,115021,J1772 TESLA,PAY_GARAGE,Free
+116,ELEC,Icon Parking 155 E 29th Street - Tesla Destination,155 E 29th St,New York,3.0,Tesla Destination,40.742968,-73.980565,115022,J1772 TESLA,HOTEL,Free
+117,ELEC,City Parking Garment One Garage - Tesla Destination,155 E 34th St,New York,3.0,Tesla Destination,40.7462,-73.978528,115023,J1772 TESLA,PAY_GARAGE,Free
+118,ELEC,Prime Parking Systems - 155 E 68th Street - Tesla Destination,155 E 68th St,New York,3.0,Tesla Destination,40.768032,-73.963983,115024,J1772 TESLA,PAY_GARAGE,Free
+119,ELEC,Champion Parking W 53rd Street - Tesla Destination,159 W 53rd St,New York,3.0,Tesla Destination,40.763,-73.981278,115025,J1772 TESLA,PAY_GARAGE,Free
+120,ELEC,Icon Parking 16 W 16th Street - Tesla Destination,16 W 16th St,New York,3.0,Tesla Destination,40.737595,-73.993837,115026,J1772 TESLA,PAY_GARAGE,Free
+121,ELEC,GGMC Parking Alfred - Tesla Destination,161 W 61st St,New York,3.0,Tesla Destination,40.771561,-73.985834,115027,J1772 TESLA,PAY_GARAGE,Free
+122,ELEC,iPark NYC E 77th Street - Tesla Destination,165 E 77th St,New York,3.0,Tesla Destination,40.77364,-73.959302,115028,J1772 TESLA,PAY_GARAGE,Free
+123,ELEC,Parkright 169 Ludlow Street - Tesla Destination,169 Ludlow St,New York,3.0,Tesla Destination,40.721724,-73.987776,115029,J1772 TESLA,PAY_GARAGE,Free
+124,ELEC,Icon Parking 169 W 95th Street - Tesla Destination,169  W 95th St,New York,3.0,Tesla Destination,40.793528,-73.97024,115030,J1772 TESLA,PAY_GARAGE,Free
+125,ELEC,Residence Inn New York Manhattan - Tesla Destination,1717 Broadway,New York,2.0,Tesla Destination,40.764369,-73.982707,115031,J1772 TESLA,HOTEL,Free
+126,ELEC,Quikpark 173 W 12th Street - Tesla Destination,173 W 12th St,New York,3.0,Tesla Destination,40.7372,-74.00007,115032,J1772 TESLA,PAY_GARAGE,Free
+127,ELEC,Quik Park Hudson 180 LLC - Tesla Destination,180 Riverside Blvd,New York,3.0,Tesla Destination,40.778397,-73.987899,115033,J1772 TESLA,PAY_GARAGE,Free
+128,ELEC,iPark NYC 183 E 73rd Street - Tesla Destination,184 E 73rd St,New York,3.0,Tesla Destination,40.770442,-73.960649,115034,J1772 TESLA,HOTEL,Free
+129,ELEC,Icon Parking 240 East Broadway - Tesla Destination,188 Clinton St,New York,3.0,Tesla Destination,40.715074,-73.986927,115035,J1772 TESLA,PAY_GARAGE,Free
+130,ELEC,Glenwood Grand Tier Parking - Tesla Destination,1930 Broadway,New York,2.0,Tesla Destination,40.772436,-73.981695,115036,TESLA,PAY_GARAGE,Free
+131,ELEC,Standard Parking 20 W 13th Street - Tesla Destination,20 W 13th St,New York,3.0,Tesla Destination,40.735594,-73.995291,115037,J1772 TESLA,PAY_GARAGE,Free
+132,ELEC,Central Parking 200 Chambers - Tesla Destination,200 Chambers St,New York,3.0,Tesla Destination,40.716579,-74.012393,115038,J1772 TESLA,PAY_GARAGE,Free
+133,ELEC,Icon Parking 200 E 32nd Street - Tesla Destination,200 E 32nd St,New York,3.0,Tesla Destination,40.744029,-73.978952,115039,J1772 TESLA,PAY_GARAGE,Free
+134,ELEC,Icon Parking 200 E 65th Street - Tesla Destination,200 E 65th St,New York,3.0,Tesla Destination,40.764777,-73.963555,115040,J1772 TESLA,PAY_GARAGE,Free
+135,ELEC,Enterprise Parking 200 E 69th St - Tesla Destination,200 E 69th St,New York,2.0,Tesla Destination,40.767289,-73.961762,115041,TESLA,PAY_GARAGE,Free
+136,ELEC,iPark 200 E 70th Street - Tesla Destination,200 E 70th St,New York,3.0,Tesla Destination,40.768244,-73.961621,115042,J1772 TESLA,PAY_GARAGE,Free
+137,ELEC,iPark NYC The Carnegie Garage - Tesla Destination,200 E 94th St,New York,3.0,Tesla Destination,40.783355,-73.949998,115043,J1772 TESLA,PAY_GARAGE,Free
+138,ELEC,GMC Copley Parking - Tesla Destination,2000 Broadway,New York,3.0,Tesla Destination,40.775496,-73.981552,115044,TESLA,PAY_GARAGE,Free
+139,ELEC,MPG 201 E 56th - Tesla Destination,201 E 56th,New York,3.0,Tesla Destination,40.759764,-73.967956,115045,J1772 TESLA,PAY_GARAGE,Free
+140,ELEC,Icon Parking 203 E 61 Street - Tesla Destination,203 E 61 St,New York,3.0,Tesla Destination,40.762948,-73.965513,115046,J1772 TESLA,PAY_GARAGE,Free
+141,ELEC,Rapidpark 204 W 101st Street - Tesla Destination,204 W 101st St,New York,3.0,Tesla Destination,40.797283,-73.968766,115047,J1772 TESLA,PAY_GARAGE,Free
+142,ELEC,Champion Parking W 76th Street - Tesla Destination,205 W 76th St,New York,3.0,Tesla Destination,40.78168,-73.97994,115048,J1772 TESLA,PAY_GARAGE,Free
+143,ELEC,Icon Parking 810 Seventh Ave - Tesla Destination,207  W 52nd St,New York,3.0,Tesla Destination,40.762891,-73.983151,115049,J1772 TESLA,PAY_GARAGE,Free
+144,ELEC,Standard Parking 21 East 15th Street - Tesla Destination,21 E 15th St,New York,3.0,Tesla Destination,40.73644,-73.992027,115050,J1772 TESLA,PAY_GARAGE,Free
+145,ELEC,Rapidpark 210 W 102nd Street - Tesla Destination,210 W 102st St,New York,3.0,Tesla Destination,40.797961,-73.968389,115051,J1772 TESLA,PAY_GARAGE,Free
+146,ELEC,Champion Parking 74 LLC - Tesla Destination,2109  Broadway,New York,3.0,Tesla Destination,40.780143,-73.98221,115052,J1772 TESLA,PAY_GARAGE,Free
+147,ELEC,GGMC Parking Seven Eleven (Located at 217 E 44th St) - Tesla Destination,217 E 44th St,New York,3.0,Tesla Destination,40.752004,-73.972808,115053,J1772 TESLA,PAY_GARAGE,Free
+148,ELEC,Icon Parking 220 Riverside Blvd - Tesla Destination,220 Riverside Blvd,New York,6.0,Tesla Destination,40.77975,-73.987272,115054,J1772 TESLA,PAY_GARAGE,Free
+149,ELEC,iPark 200 West Garage Corp. - Tesla Destination,220 W 26th St,New York,3.0,Tesla Destination,40.746142,-73.995221,115055,J1772 TESLA,PAY_GARAGE,Free
+150,ELEC,Parkit 221 Thompson Street - Tesla Destination,221  Thompson St,New York,3.0,Tesla Destination,40.729372,-73.999217,115056,J1772 TESLA,PAY_GARAGE,Free
+151,ELEC,Icon Parking 225 W 83 Street - Tesla Destination,225  W 83rd St,New York,3.0,Tesla Destination,40.786371,-73.977357,115058,J1772 TESLA,PAY_GARAGE,Free
+152,ELEC,Quik Park Broadway Garage LLC - Tesla Destination,225-251  W 56th St,New York,3.0,Tesla Destination,40.765735,-73.982101,115059,J1772 TESLA,PAY_GARAGE,Free
+153,ELEC,GGMC Yorkville Car Park - Tesla Destination,230 E 92nd St,New York,3.0,Tesla Destination,40.782163,-73.95059,115060,J1772 TESLA,PAY_GARAGE,Free
+154,ELEC,Champion Parking 230 W 55th Street - Tesla Destination,230 W 55th St,New York,3.0,Tesla Destination,40.764693,-73.982708,115061,J1772 TESLA,PAY_GARAGE,Free
+155,ELEC,Icon Parking 237 West Thames - Tesla Destination,237 W Thames,New York,3.0,Tesla Destination,40.708465,-74.016762,115062,J1772 TESLA,PAY_GARAGE,Free
+156,ELEC,Icon 299 Peal Street Seaport Parking - Tesla Destination,238 Pearl St,New York,3.0,Tesla Destination,40.70736,-74.004989,115063,J1772 TESLA,PAY_GARAGE,Free
+157,ELEC,iPark 245 East 63rd Street - Tesla Destination,245 East 63rd St,New York,3.0,Tesla Destination,40.763562,-73.963079,115065,J1772 TESLA,PAY_GARAGE,Free
+158,ELEC,GGMC Ruppert Car Park - Tesla Destination,245 E 90th St,New York,3.0,Tesla Destination,40.780918,-73.950526,115066,J1772 TESLA,PAY_GARAGE,Free
+159,ELEC,iPark NYC 246 E 45 Street - Tesla Destination,246  E 45th St,New York,3.0,Tesla Destination,40.751676,-73.971144,115067,J1772 TESLA,PAY_GARAGE,Free
+160,ELEC,iPark NYC 250 West Parking - Tesla Destination,250  W 19th St,New York,3.0,Tesla Destination,40.742179,-73.999226,115068,J1772 TESLA,PAY_GARAGE,Free
+161,ELEC,Quik Park Columbia Garage LLC - Tesla Destination,250 W. 97th St,New York,3.0,Tesla Destination,40.795279,-73.971688,115069,J1772 TESLA,PAY_GARAGE,Free
+162,ELEC,Quik Park 40 Riverside Blvd - Tesla Destination,251 W 62nd St,New York,3.0,Tesla Destination,40.773464,-73.989532,115070,J1772 TESLA,PAY_GARAGE,Free
+163,ELEC,Rapidpark 25-27 Beekman Street - Tesla Destination,25-27 Beekman St,New York,3.0,Tesla Destination,40.710628,-74.006186,115071,J1772 TESLA,PAY_GARAGE,Free
+164,ELEC,Rapidpark 254 W 79th Street - Tesla Destination,254 W 79th St,New York,3.0,Tesla Destination,40.78386,-73.980521,115072,J1772 TESLA,PAY_GARAGE,Free
+165,ELEC,MPG 266 E 97 St - Tesla Destination,266 E 97th St,New York,3.0,Tesla Destination,40.784771,-73.946728,115073,J1772 TESLA,PAY_GARAGE,Free
+166,ELEC,Parkit 27 N Moore Street - Tesla Destination,27  N Moore St,New York,3.0,Tesla Destination,40.720215,-74.007465,115074,J1772 TESLA,PAY_GARAGE,Free
+167,ELEC,iPark 455 Central Park West - Tesla Destination,27  W 105th St,New York,3.0,Tesla Destination,40.797875,-73.961228,115075,J1772 TESLA,PAY_GARAGE,Free
+168,ELEC,Standard Parking 270 Greenwich - Tesla Destination,270 Greenwich St,New York,3.0,Tesla Destination,40.715543,-74.011435,115076,J1772 TESLA,PAY_GARAGE,Free
+169,ELEC,Icon Parking 279 East 65th Street - Tesla Destination,279 E 65th St,New York,3.0,Tesla Destination,40.764758,-73.962042,115077,J1772 TESLA,PAY_GARAGE,Free
+170,ELEC,ABM Parking Services 285 W 50th Street LLC - Tesla Destination,285 W 50th St,New York,3.0,Tesla Destination,40.762337,-73.985727,115078,J1772 TESLA,PAY_GARAGE,Free
+171,ELEC,Parkright 39 E 29th Street - Tesla Destination,29 East 29th St,New York,3.0,Tesla Destination,40.744551,-73.984535,115079,J1772 TESLA,HOTEL,Free
+172,ELEC,iPark 3 E 67th Street - Tesla Destination,3 E 67th St,New York,3.0,Tesla Destination,40.769386,-73.969137,115080,J1772 TESLA,PAY_GARAGE,Free
+173,ELEC,Icon Parking 30 W 63rd St - Tesla Destination,30 W 63rd St,New York,2.0,Tesla Destination,40.770769,-73.981573,115081,TESLA,PAY_GARAGE,Free
+174,ELEC,GGMC Parking Connaught - Tesla Destination,300  E 54th St,New York,3.0,Tesla Destination,40.756956,-73.966399,115082,J1772 TESLA,PAY_GARAGE,Free
+175,ELEC,Icon Parking 300 E 59th Street - Tesla Destination,300 E 59th St,New York,3.0,Tesla Destination,40.760421,-73.964418,115083,J1772 TESLA,PAY_GARAGE,Free
+176,ELEC,GGMC Parking E 74th Street - Tesla Destination,300  E 74th St,New York,3.0,Tesla Destination,40.769925,-73.957476,115084,J1772 TESLA,PAY_GARAGE,Free
+177,ELEC,Parkright 300 E 77th St - Tesla Destination,300 East 77th St,New York,3.0,Tesla Destination,40.771689,-73.955816,115085,J1772 TESLA,HOTEL,Free
+178,ELEC,Icon Parking 301 E 57 Street - Tesla Destination,301 E 57th St,New York,3.0,Tesla Destination,40.759484,-73.965206,115086,J1772 TESLA,PAY_GARAGE,Free
+179,ELEC,Parkit 301 E 64th - Tesla Destination,301 E 64th St,New York,3.0,Tesla Destination,40.76389,-73.961892,115087,J1772 TESLA,PAY_GARAGE,Free
+180,ELEC,Icon Parking 308 Greenwich - Tesla Destination,308 Greenwich St,New York,3.0,Tesla Destination,40.717568,-74.011042,115088,J1772 TESLA,HOTEL,Free
+181,ELEC,Parkit 310 E 11th Street - Tesla Destination,310  E 11th St,New York,3.0,Tesla Destination,40.729871,-73.98568,115089,J1772 TESLA,PAY_GARAGE,Free
+182,ELEC,Waldorf Astoria New York - Tesla Destination,310 Park Ave,New York,2.0,Tesla Destination,40.757047,-73.974455,115090,TESLA,HOTEL,Free
+183,ELEC,Quik Park 311 West Broadway LLC - Tesla Destination,311 W Broadway,New York,2.0,Tesla Destination,40.721638,-74.003781,115091,TESLA,PAY_GARAGE,Free
+184,ELEC,Icon Parking 322 23rd Street - Tesla Destination,318-322  E 23rd St,New York,3.0,Tesla Destination,40.737362,-73.980167,115092,J1772 TESLA,PAY_GARAGE,Free
+185,ELEC,Quik Park 32 Debrosses LLC - Tesla Destination,32 Debrosses St,New York,3.0,Tesla Destination,40.723702,-74.010335,115093,J1772 TESLA,PAY_GARAGE,Free
+186,ELEC,Glenwood Belmont Parking - Tesla Destination,320 E 46th St,New York,2.0,Tesla Destination,40.751784,-73.969463,115094,J1772 TESLA,PAY_GARAGE,Free
+187,ELEC,Champion Parking W 57th Street - Tesla Destination,320 W 57th St,New York,3.0,Tesla Destination,40.767194,-73.984544,115095,J1772 TESLA,PAY_GARAGE,Free
+188,ELEC,GGMC Parking 8 E 33rd St Garage - Tesla Destination,325  East 5th Ave,New York,3.0,Tesla Destination,40.74733,-73.984857,115096,J1772 TESLA,PAY_GARAGE,Free
+189,ELEC,Icon Parking E 48th Street - Tesla Destination,329 E 48th St,New York,3.0,Tesla Destination,40.75323,-73.96799,115097,J1772 TESLA,PAY_GARAGE,Free
+190,ELEC,Icon Parking 330 E 39th Street - Tesla Destination,330  E 39th St,New York,3.0,Tesla Destination,40.747123,-73.972257,115098,J1772 TESLA,PAY_GARAGE,Free
+191,ELEC,Icon Parking 330 W 58th Street - Tesla Destination,330  W 58th St,New York,3.0,Tesla Destination,40.767725,-73.983646,115099,J1772 TESLA,PAY_GARAGE,Free
+192,ELEC,Apple Parking 332 W 11th Street - Tesla Destination,332 W 11th St,New York,3.0,Tesla Destination,40.735404,-74.007717,115100,TESLA,PAY_GARAGE,Free
+193,ELEC,iPark NYC 333 E 38th NYU - Tesla Destination,333 E 38th St,New York,3.0,Tesla Destination,40.746891,-73.972547,115101,J1772 TESLA,PAY_GARAGE,Free
+194,ELEC,Standard Parking Gateway Plaza Garage - Tesla Destination,339 South End Ave,New York,3.0,Tesla Destination,40.710652,-74.016396,115102,J1772 TESLA,PAY_GARAGE,Free
+195,ELEC,MPG 340 East 93rd - Tesla Destination,340 E 93rd St,New York,3.0,Tesla Destination,40.781375,-73.946721,115103,J1772 TESLA,PAY_GARAGE,Free
+196,ELEC,Rapidpark 340 94th Street - Tesla Destination,340 E 94th St,New York,3.0,Tesla Destination,40.781961,-73.946209,115104,J1772 TESLA,PAY_GARAGE,Free
+197,ELEC,iPark NYC 345 East Garage - Tesla Destination,345 East 80th St,New York,3.0,Tesla Destination,40.773471,-73.952304,115105,J1772 TESLA,PAY_GARAGE,Free
+198,ELEC,Rapidpark 35 E 75th Street - Tesla Destination,35  E 75th St,New York,3.0,Tesla Destination,40.773815,-73.963696,115106,J1772 TESLA,PAY_GARAGE,Free
+199,ELEC,"The Carlyle Hotel, A Rosewood Hotel - Tesla Destination",35  E 76th St,New York,2.0,Tesla Destination,40.774308,-73.963182,115107,J1772 TESLA,HOTEL,Free
+200,ELEC,Quik Park 82nd Street LLC - Tesla Destination,350 E. 82nd St,New York,3.0,Tesla Destination,40.774316,-73.951909,115108,J1772 TESLA,PAY_GARAGE,Free
+201,ELEC,GGMC Parking 350 W 43rd Street Garage - Tesla Destination,350 West 43rd St,New York,3.0,Tesla Destination,40.758503,-73.991285,115109,J1772 TESLA,PAY_GARAGE,Free
+202,ELEC,Rapidpark 351 East 83rd - Tesla Destination,351  E 83rd,New York,3.0,Tesla Destination,40.775208,-73.950978,115110,J1772 TESLA,PAY_GARAGE,Free
+203,ELEC,Icon Parking 35-39 East 61st Street - Tesla Destination,35-39  E 61st St,New York,3.0,Tesla Destination,40.764876,-73.970102,115111,J1772 TESLA,PAY_GARAGE,Free
+204,ELEC,Icon 376 Greenwich Street - Tesla Destination,376 Greenwich St,New York,3.0,Tesla Destination,40.719814,-74.010394,115112,J1772 TESLA,PAY_GARAGE,Free
+205,ELEC,iPark NYU 377 E 33rd Street - Tesla Destination,377 E 33rd St,New York,3.0,Tesla Destination,40.743382,-73.974251,115113,J1772 TESLA,PAY_GARAGE,Free
+206,ELEC,Icon Parking 111 8th Ave Parking - Tesla Destination,385  W 15th St,New York,4.0,Tesla Destination,40.741669,-74.004397,115114,TESLA,PAY_GARAGE,Free
+207,ELEC,iPark 386 E 48th Street - Tesla Destination,386 E 48th St,New York,3.0,Tesla Destination,40.751772,-73.964999,115115,J1772 TESLA,PAY_GARAGE,Free
+208,ELEC,Icon Parking Wall Park - Tesla Destination,39  Exchange Pl,New York,3.0,Tesla Destination,40.706109,-74.010148,115116,J1772 TESLA,PAY_GARAGE,Free
+209,ELEC,GGMC Parking Carnegie Garage - Tesla Destination,40 E 94th St,New York,3.0,Tesla Destination,40.785524,-73.95496,115117,J1772 TESLA,PAY_GARAGE,Free
+210,ELEC,City Parking RL Mercer Street - Tesla Destination,40  Mercer St,New York,3.0,Tesla Destination,40.721244,-74.00092,115118,J1772 TESLA,PAY_GARAGE,Free
+211,ELEC,Icon Parking 40 W 26th Street - Tesla Destination,40 W 26th St,New York,3.0,Tesla Destination,40.743961,-73.989912,115119,J1772 TESLA,PAY_GARAGE,Free
+212,ELEC,iPark NYC 400 E 35th NYU - Tesla Destination,400 E 35th St,New York,3.0,Tesla Destination,40.744093,-73.972689,115120,J1772 TESLA,PAY_GARAGE,Free
+213,ELEC,Icon Liberty View Parking - Tesla Destination,400 Murray St,New York,3.0,Tesla Destination,40.716079,-74.015929,115121,J1772 TESLA,PAY_GARAGE,Free
+214,ELEC,Champion Parking 113 LLC - Tesla Destination,400 W 113th St,New York,3.0,Tesla Destination,40.804007,-73.960887,115122,J1772 TESLA,PAY_GARAGE,Free
+215,ELEC,Propark 401 W 110th Street - Tesla Destination,401 W 110th St,New York,3.0,Tesla Destination,40.802368,-73.961689,115123,J1772 TESLA,PAY_GARAGE,Free
+216,ELEC,Parkit 403 Lafayette St. - Tesla Destination,403 Lafayette St,New York,3.0,Tesla Destination,40.728137,-73.992393,115124,J1772 TESLA,PAY_GARAGE,Free
+217,ELEC,iPark 41 E 85th Street - Tesla Destination,41 E 85th St,New York,3.0,Tesla Destination,40.780305,-73.959091,115125,J1772 TESLA,PAY_GARAGE,Free
+218,ELEC,Rapidpark 411 W 55th Street - Tesla Destination,411 W 55th St,New York,3.0,Tesla Destination,40.767111,-73.987232,115126,J1772 TESLA,PAY_GARAGE,Free
+219,ELEC,GGMC Parking 415 E 79th - Tesla Destination,415 E 79th St,New York,3.0,Tesla Destination,40.772197,-73.95183,115127,J1772 TESLA,PAY_GARAGE,Free
+220,ELEC,Icon Parking Sutton 53 - Tesla Destination,417 E 53rd St,New York,3.0,Tesla Destination,40.755371,-73.963368,115128,J1772 TESLA,PAY_GARAGE,Free
+221,ELEC,Icon Parking Independent - Tesla Destination,417  E 71st St,New York,3.0,Tesla Destination,40.766976,-73.955645,115129,J1772 TESLA,PAY_GARAGE,Free
+222,ELEC,GMC Parking 420 E 53rd - Tesla Destination,420 E 53rd St,New York,1.0,Tesla Destination,40.755013,-73.963549,115130,TESLA,PAY_GARAGE,Free
+223,ELEC,Sutton Place North Garage - Tesla Destination,420 E 54th St,New York,2.0,Tesla Destination,40.755679,-73.963528,115131,TESLA,PAY_GARAGE,Free
+224,ELEC,imPark 422 E 79th Street - Tesla Destination,422  E 79th St,New York,3.0,Tesla Destination,40.771766,-73.951838,115132,J1772 TESLA,PAY_GARAGE,Free
+225,ELEC,Quik Park West 23rd Street Garage LLC - Tesla Destination,423-431  W 23rd St,New York,3.0,Tesla Destination,40.746762,-74.001428,115133,J1772 TESLA,PAY_GARAGE,Free
+226,ELEC,iPark NYC 425 E 58th Street - Tesla Destination,425 E 58th St,New York,3.0,Tesla Destination,40.758766,-73.961406,115134,J1772 TESLA,PAY_GARAGE,Free
+227,ELEC,City Parking E 61st Street - Tesla Destination,425 E 61st St,New York,3.0,Tesla Destination,40.760522,-73.959278,115135,J1772 TESLA,PAY_GARAGE,Free
+228,ELEC,ABM Parking 866 UN Plaza - Tesla Destination,430 E 49th St,New York,3.0,Tesla Destination,40.752516,-73.965347,115136,J1772 TESLA,PAY_GARAGE,Free
+229,ELEC,Quikpark 43-08 Crescent Street - Tesla Destination,43-08 Crescent St,New York,3.0,Tesla Destination,40.748762,-73.942538,115137,J1772 TESLA,PAY_GARAGE,Free
+230,ELEC,iPark NYC 44 Elizabeth Street - Tesla Destination,44 Elizabeth St,New York,3.0,Tesla Destination,40.716947,-73.996472,115138,J1772 TESLA,PAY_GARAGE,Free
+231,ELEC,Quik Park 86th St. LLC - Tesla Destination,444 E 86th St,New York,3.0,Tesla Destination,40.775975,-73.947732,115139,J1772 TESLA,PAY_GARAGE,Free
+232,ELEC,Rapidpark 480 Riverside (120th St) - Tesla Destination,480 Riverside Dr,New York,3.0,Tesla Destination,40.811206,-73.963782,115140,J1772 TESLA,PAY_GARAGE,Free
+233,ELEC,iPark NYC Central Harlem Garage Corp. - Tesla Destination,49 W 116th St,New York,3.0,Tesla Destination,40.801497,-73.94792,115141,J1772 TESLA,PAY_GARAGE,Free
+234,ELEC,Icon Parking 5 E 22nd Street - Tesla Destination,5  E 22nd St,New York,3.0,Tesla Destination,40.740794,-73.988885,115142,J1772 TESLA,PAY_GARAGE,Free
+235,ELEC,GGMC Parking Battery Place - Tesla Destination,50 Battery Pl,New York,3.0,Tesla Destination,40.706643,-74.018095,115143,J1772 TESLA,PAY_GARAGE,Free
+236,ELEC,GGMC Parking 50 E 79th St Garage - Tesla Destination,50 E 79th St,New York,2.0,Tesla Destination,40.775932,-73.961937,115144,TESLA,PAY_GARAGE,Free
+237,ELEC,MPG 500 West 30th - Tesla Destination,500 W 30th,New York,3.0,Tesla Destination,40.751987,-74.001701,115145,J1772 TESLA,PAY_GARAGE,Free
+238,ELEC,Roger Smith Hotel - Tesla Destination,501 Lexington Ave,New York,1.0,Tesla Destination,40.754735,-73.973361,115146,TESLA,HOTEL,Free
+239,ELEC,Icon Parking 51 W 22nd - Tesla Destination,51 W 22nd St,New York,3.0,Tesla Destination,40.742197,-73.992168,115147,J1772 TESLA,PAY_GARAGE,Free
+240,ELEC,Icon Parking 524 East 73rd - Tesla Destination,524 E 73rd St,New York,3.0,Tesla Destination,40.766741,-73.95193,115149,J1772 TESLA,PAY_GARAGE,Free
+241,ELEC,GGMC Parking 51-53 E 76th St Carlyle Hotel - Tesla Destination,53  E 76th St,New York,2.0,Tesla Destination,40.774265,-73.96278,115150,J1772 TESLA,PAY_GARAGE,Free
+242,ELEC,iPark 530 E 80th Street - Tesla Destination,530 E 80th St,New York,3.0,Tesla Destination,40.771136,-73.948252,115151,J1772 TESLA,PAY_GARAGE,Free
+243,ELEC,MPG 530 West 30th - Tesla Destination,530 W 30th,New York,3.0,Tesla Destination,40.752558,-74.002736,115152,J1772 TESLA,PAY_GARAGE,Free
+244,ELEC,Icon Parking E 88th Street - Tesla Destination,536 E 88th St,New York,3.0,Tesla Destination,40.776302,-73.944521,115153,J1772 TESLA,PAY_GARAGE,Free
+245,ELEC,Icon Parking 54 Murray Street - Tesla Destination,54 Murray St,New York,3.0,Tesla Destination,40.714121,-74.009808,115154,J1772 TESLA,PAY_GARAGE,Free
+246,ELEC,Standard Parking 800 6th Ave - Tesla Destination,54 W 28th St,New York,3.0,Tesla Destination,40.745449,-73.989622,115155,J1772 TESLA,PAY_GARAGE,Free
+247,ELEC,Loews Regency New York - Tesla Destination,540 Park Ave,New York,3.0,Tesla Destination,40.764608,-73.969355,115156,J1772 TESLA,HOTEL,Free
+248,ELEC,MPG 543 W 110th Street Garage - Tesla Destination,543  W 110th St,New York,3.0,Tesla Destination,40.804167,-73.965894,115157,J1772 TESLA,PAY_GARAGE,Free
+249,ELEC,iPark NYC 549 W 23rd Street - Tesla Destination,549  W 23rd St,New York,3.0,Tesla Destination,40.748931,-74.006078,115158,J1772 TESLA,PAY_GARAGE,Free
+250,ELEC,Icon Parking 55 W 14th Street - Tesla Destination,55 W 14th St,New York,3.0,Tesla Destination,40.737266,-73.99611,115159,J1772 TESLA,PAY_GARAGE,Free
+251,ELEC,GGMC Parking - 550 W 25th - Tesla Destination,550  W 25th St,New York,2.0,Tesla Destination,40.749666,-74.005485,115160,J1772 TESLA,PAY_GARAGE,Free
+252,ELEC,iPark Eleventh Avenue Garage Corp. - Tesla Destination,552 W 30th St,New York,3.0,Tesla Destination,40.752693,-74.002954,115161,J1772 TESLA,PAY_GARAGE,Free
+253,ELEC,Icon Parking 560 Third Ave - Tesla Destination,560 3rd Ave,New York,3.0,Tesla Destination,40.748094,-73.976864,115162,J1772 TESLA,HOTEL,Free
+254,ELEC,Rapidpark 575 1st Avenue - Tesla Destination,575 1st Ave,New York,3.0,Tesla Destination,40.742761,-73.974554,115163,J1772 TESLA,PAY_GARAGE,Free
+255,ELEC,Parkit 575 Washington - Tesla Destination,575 Washington St,New York,6.0,Tesla Destination,40.729474,-74.008847,115164,J1772 TESLA,PAY_GARAGE,Free
+256,ELEC,Standard Parking 58 W 58th Street - Tesla Destination,58 W 58th St,New York,3.0,Tesla Destination,40.764459,-73.976349,115165,J1772 TESLA,PAY_GARAGE,Free
+257,ELEC,iPark 59-63 Allen Street - Tesla Destination,59-63 Allen St,New York,3.0,Tesla Destination,40.717124,-73.99201,115166,J1772 TESLA,PAY_GARAGE,Free
+258,ELEC,Champion Parking 90 LLC - Tesla Destination,60 E 90th St,New York,3.0,Tesla Destination,40.783085,-73.956304,115167,J1772 TESLA,PAY_GARAGE,Free
+259,ELEC,Champion Parking 60 East End Avenue - Tesla Destination,60 East End Ave,New York,3.0,Tesla Destination,40.772794,-73.946969,115168,J1772 TESLA,PAY_GARAGE,Free
+260,ELEC,RapidPark 600 Columbus Ave - Tesla Destination,600 Columbus Ave,New York,3.0,Tesla Destination,40.788716,-73.970934,115169,J1772 TESLA,PAY_GARAGE,Free
+261,ELEC,Quik Park 600 West 42nd Street (Silver Towers) LLC - Tesla Destination,600 W 42nd St,New York,3.0,Tesla Destination,40.760809,-73.998773,115170,J1772 TESLA,PAY_GARAGE,Free
+262,ELEC,"MTP Parking, The Helena - Tesla Destination",601  W 57th St,New York,2.0,Tesla Destination,40.770771,-73.991789,115171,TESLA,PAY_GARAGE,Free
+263,ELEC,Champion Parking 60 E 8th - Tesla Destination,60-68 E 8th St,New York,3.0,Tesla Destination,40.730501,-73.993075,115172,J1772 TESLA,PAY_GARAGE,Free
+264,ELEC,iPark NYC 61 Jane Street - Tesla Destination,61 Jane St,New York,3.0,Tesla Destination,40.738222,-74.005908,115173,J1772 TESLA,PAY_GARAGE,Free
+265,ELEC,Parkit 10 Wooster St. - Tesla Destination,6-10 Wooster St,New York,3.0,Tesla Destination,40.721131,-74.00357,115174,J1772 TESLA,PAY_GARAGE,Free
+266,ELEC,imPark 611 E 83rd Street - Tesla Destination,611 E 83rd St,New York,3.0,Tesla Destination,40.772931,-73.945552,115175,J1772 TESLA,PAY_GARAGE,Free
+267,ELEC,MTP 625 W 57th Street - Tesla Destination,625  W 57th St,New York,3.0,Tesla Destination,40.771431,-73.992964,115176,TESLA,PAY_GARAGE,Free
+268,ELEC,Icon Parking University 10 Parking - Tesla Destination,63  E 9th St,New York,3.0,Tesla Destination,40.731544,-73.992045,115177,J1772 TESLA,PAY_GARAGE,Free
+269,ELEC,Parkright 670 W 43rd Street - Tesla Destination,670 W 43rd St,New York,3.0,Tesla Destination,40.762316,-74.000256,115178,J1772 TESLA,HOTEL,Free
+270,ELEC,Quik Park Little West LLC - Tesla Destination,70 Little West St,New York,3.0,Tesla Destination,40.706976,-74.016962,115179,J1772 TESLA,PAY_GARAGE,Free
+271,ELEC,Rapidpark 70 Riverside Dr - Tesla Destination,70 Riverside Dr,New York,2.0,Tesla Destination,40.785014,-73.982037,115180,TESLA,PAY_GARAGE,Free
+272,ELEC,The Peninsula Hotel New York - Tesla Destination,700 5th Ave,New York,1.0,Tesla Destination,40.76178,-73.975057,115181,TESLA,HOTEL,Free
+273,ELEC,Parkright 738 Greenwich Street - Tesla Destination,738 Greenwich St,New York,3.0,Tesla Destination,40.735165,-74.007231,115182,J1772 TESLA,PAY_GARAGE,Free
+274,ELEC,iPark 650 Parking Corp - Tesla Destination,80  E 67th St,New York,3.0,Tesla Destination,40.767935,-73.96671,115185,J1772 TESLA,PAY_GARAGE,Free
+275,ELEC,Icon Parking 70 Gold Street - Tesla Destination,80 Gold St,New York,3.0,Tesla Destination,40.709609,-74.004401,115186,J1772 TESLA,PAY_GARAGE,Free
+276,ELEC,Icon 80 Riverside Blvd - Tesla Destination,80 Riverside Blvd,New York,3.0,Tesla Destination,40.775054,-73.989946,115187,J1772 TESLA,PAY_GARAGE,Free
+277,ELEC,Quik Park 808 Garage LLC - Tesla Destination,808 Columbus Ave,New York,3.0,Tesla Destination,40.795214,-73.966003,115188,J1772 TESLA,PAY_GARAGE,Free
+278,ELEC,"The Standard, High Line - Tesla Destination",848  Washington St,New York,3.0,Tesla Destination,40.740828,-74.008074,115189,J1772 TESLA,HOTEL,Free
+279,ELEC,Chelnik Parking NYC 880 5th - Tesla Destination,880 5th Ave,New York,2.0,Tesla Destination,40.770385,-73.968296,115190,TESLA,PAY_GARAGE,Free
+280,ELEC,Icon 9-11 Park Ave - Tesla Destination,9 - 11 Park Ave,New York,3.0,Tesla Destination,40.747207,-73.980743,115191,J1772 TESLA,PAY_GARAGE,Free
+281,ELEC,Rapidpark 9-11 W 100th Street - Tesla Destination,9 W 100th St,New York,3.0,Tesla Destination,40.794681,-73.963228,115192,J1772 TESLA,PAY_GARAGE,Free
+282,ELEC,Quik Park West 57 LLC - Tesla Destination,9 W 57th St,New York,3.0,Tesla Destination,40.763888,-73.97499,115193,J1772 TESLA,PAY_GARAGE,Free
+283,ELEC,GGMC Parking Stewart House Garage - Tesla Destination,91 East 9th St,New York,3.0,Tesla Destination,40.73099,-73.990963,115194,J1772 TESLA,PAY_GARAGE,Free
+284,ELEC,Rapidpark 920 Park Avenue - Tesla Destination,920 Park Ave,New York,3.0,Tesla Destination,40.776673,-73.960253,115195,J1772 TESLA,PAY_GARAGE,Free
+285,ELEC,MPG 923 5th Ave - Tesla Destination,923 5th Ave,New York,3.0,Tesla Destination,40.773173,-73.966026,115196,J1772 TESLA,PAY_GARAGE,Free
+286,ELEC,GGMC The Cove - Tesla Destination,99 Battery Pl,New York,3.0,Tesla Destination,40.707624,-74.016593,115197,J1772 TESLA,PAY_GARAGE,Free
+287,ELEC,Icon Parking 990 Ave of the Americas - Tesla Destination,990 Avenue of the Americas,New York,3.0,Tesla Destination,40.751363,-73.986389,115198,J1772 TESLA,OFFICE_BLDG,Free
+288,ELEC,Angelina's Ristorante - Tesla Destination,399 Ellis St,Staten Island,3.0,Tesla Destination,40.51337,-74.25137,115240,TESLA,RESTAURANT,Free
+289,ELEC,59 Allen Street - Tesla Supercharger,59 Allen Street,New York,,Tesla,40.717153,-73.991869,116808,TESLA,PARKING_LOT,$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW
+290,ELEC,Queens Center - Tesla Supercharger,90-15 Queens Boulevard,Queens,,Tesla,40.735082,-73.87067,116809,TESLA,SHOPPING_CENTER,$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW
+291,ELEC,Brooklyn Museum - Tesla Supercharger,878 Washington Avenue,Brooklyn,,Tesla,40.669936,-73.963069,122247,TESLA,,$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW
+292,ELEC,ImPark Underhill Garage - Tesla Destination,105 Underhill Ave,Brooklyn,4.0,Tesla Destination,40.67746,-73.965421,122469,TESLA,,Free
+293,ELEC,ProPark 184 Kent Ave - Tesla Destination,184 Kent Ave,Brooklyn,4.0,Tesla Destination,40.718763,-73.964599,122470,TESLA,,Free
+294,ELEC,ImPark 500 4th Ave - Tesla Destination,212 12th St,Brooklyn,4.0,Tesla Destination,40.668403,-73.990389,122471,TESLA,,Free
+295,ELEC,Sherman Parking - Tesla Destination,26 S 6th St,Brooklyn,4.0,Tesla Destination,40.711558,-73.967572,122472,TESLA,,Free
+296,ELEC,iPark 34 N 7th Street - Tesla Destination,34  N 7th St,Brooklyn,3.0,Tesla Destination,40.720475,-73.96265,122473,J1772 TESLA,,Free
+297,ELEC,IMPark 353 4th Ave - Tesla Destination,353 4th Ave,Brooklyn,4.0,Tesla Destination,40.672845,-73.986284,122475,TESLA,,Free
+298,ELEC,MTP Parking 363 Bond Street - Tesla Destination,363 Bond St,Brooklyn,4.0,Tesla Destination,40.677977,-73.990135,122476,TESLA,,Free
+299,ELEC,MTP Parking 568 Union Ave - Tesla Destination,568 Union Ave,Brooklyn,4.0,Tesla Destination,40.717801,-73.951805,122477,TESLA,,Free
+300,ELEC,ImPark Atlantic Terrace - Tesla Destination,669 Atlantic Ave,Brooklyn,4.0,Tesla Destination,40.683295,-73.973753,122478,TESLA,,Free
+301,ELEC,MTP Parking 755 Kent Ave - Tesla Destination,755 Kent Ave,Brooklyn,4.0,Tesla Destination,40.698959,-73.9601,122479,TESLA,,Free
+302,ELEC,iPark 400 E 85th St - Tesla Destination,400 E 85th St,Manhattan,4.0,Tesla Destination,40.776008,-73.949934,122489,TESLA,,Free
+303,ELEC,iPark NYC 75 Wall Street - Tesla Destination,75 Wall St,New York,3.0,Tesla Destination,40.705042,-74.008118,122491,J1772 TESLA,,Free
+304,ELEC,INDUSTRY CITY LOT B WEST,533 2nd Ave,Brooklyn,2.0,ChargePoint Network,40.659333,-74.006419,122592,J1772,,
+305,ELEC,New York University - Plaza Nursery School,110 Bleecker St,New York,2.0,EV Connect,40.7273617,-73.9975331999999,123058,J1772,COLLEGE_CAMPUS,
+306,ELEC,Queens Family Court Garage,150-07 Archer St,Queens,3.0,EV Connect,40.7044805,-73.7927244,123069,J1772,PARKING_GARAGE,
+307,ELEC,New Lab,19 Morris Ave,Brooklyn,2.0,EV Connect,40.69953,-73.974315,123075,J1772,OFFICE_BLDG,
+308,ELEC,New York City Transit Authority - Surface Transit Headquarters,25 Jamaica Ave,Brooklyn,1.0,EV Connect,40.678067,-73.8997292,123088,J1772,MUNI_GOV,
+309,ELEC,Company,335 Madison Ave,New York,5.0,EV Connect,40.7537571,-73.9783437999999,123101,J1772,OFFICE_BLDG,
+310,ELEC,Jerome-Gun Hill Road - Municipal Parking Garage,3510 Jerome Ave,New York,5.0,EV Connect,40.882958,-73.880725,123102,J1772,PARKING_GARAGE,
+311,ELEC,Yeshiva University,385 Audubon Ave,New York,1.0,EV Connect,40.8506642,-73.9306379,123105,J1772,COLLEGE_CAMPUS,
+312,ELEC,Queens College - Kiely Hall,65-30 Kissena Blvd,Queens,2.0,EV Connect,40.7358738,-73.8158194,123127,J1772,COLLEGE_CAMPUS,
+313,ELEC,Queens Borough Hall - Municipal Parking Lot,80-25 126th St,Queens,4.0,EV Connect,40.714376,-73.826095,123134,J1772,PARKING_GARAGE,
+314,ELEC,Verizon - Bronx,2885 Jerome Ave,Bronx,4.0,Non-Networked,40.872524,-73.890564,123328,J1772,OFFICE_BLDG,
+315,ELEC,Verizon - Manhattan,615 W 47th St,Manhattan,2.0,Non-Networked,40.764495,-73.996651,123345,J1772,OFFICE_BLDG,
+316,ELEC,The Veneto,250 East 53rd Street,New York,2.0,Blink Network,40.756766,-73.967481,124140,J1772,,Level 2: $0.59 per kWh
+317,ELEC,Coliseum Park Apts - Central Parking,345 W 58th Street,New York,1.0,Blink Network,40.768432,-73.984033,124141,J1772,,Level 2: $0.59 per kWh
+318,ELEC,Astor Place,445 Lafayette St,New York,2.0,Blink Network,40.7297,-73.991565,124144,J1772,,Level 2: $0.59 per kWh
+319,ELEC,Central Parking - 58 West 58th St,58 West 58th Street,New York,2.0,Blink Network,40.764655,-73.9761,124146,J1772,,Level 2: $0.59 per kWh
+320,ELEC,Superior Ink,400 W 12th St,New York,2.0,Blink Network,40.737537,-74.00983,124147,J1772,,Level 2: $0.59 per kWh
+321,ELEC,The Westport,500 W 56th St,New York,2.0,Blink Network,40.768211,-73.989479,124690,J1772,,Level 2: $0.59 per kWh
+322,ELEC,TATABROOKFIELD #3,11 E Loop Rd,New York,1.0,ChargePoint Network,40.755093,-73.955605,143191,J1772,,
+323,ELEC,Glenwood Management - Paramount Garage,221 E 38th St,New York,1.0,Non-Networked,40.74793,-73.974556,147009,J1772,PAY_GARAGE,$15 per session
+324,ELEC,35 SUTTON 1 35 SUTTON PL,35 Sutton Pl,New York,2.0,ChargePoint Network,40.758358,-73.9597,147425,J1772,,
+325,ELEC,PANYNJ JFK Y GARAGE 2,JFK Access Rd JFK International Airport,Queens,2.0,ChargePoint Network,40.64572,-73.779384,147469,J1772,,
+326,ELEC,PANYNJ JFK Y GARAGE 4,JFK Terminal 5 JFK International Airport,Queens,2.0,ChargePoint Network,40.645841,-73.779222,147470,J1772,,
+327,ELEC,WOC411HEMP 502 WAVERLY,502 Waverly Ave,Brooklyn,2.0,ChargePoint Network,40.682964,-73.96582,147509,J1772,,
+328,ELEC,Mall at Bay Plaza - Tesla Supercharger,260 Baychester Avenue,Bronx,,Tesla,40.863231,-73.828839,149299,TESLA,,$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW
+329,ELEC,Atlantic Center - Tesla Supercharger,625 Atlantic Avenue B12,Brooklyn,,Tesla,40.683715,-73.974337,149300,TESLA,,$0.28 per kWh; $0.26 per minute above 60 kW and $0.13 per minute at or below 60 kW
+330,ELEC,iPark NYC 555 West Garage Corp. - Tesla Destination,549  W 23rd St,New York,3.0,Tesla Destination,40.748931,-74.006078,150502,J1772 TESLA,,Free
+331,ELEC,iPark NYC E 80th Street - Tesla Destination,345 E 80th St,New York,3.0,Tesla Destination,40.773471,-73.952304,150517,J1772 TESLA,,Free
+332,ELEC,Icon Parking 245 E 19th St. - Tesla Destination,245  E 19th St,New York,3.0,Tesla Destination,40.73591,-73.983331,150520,J1772 TESLA,,Free
+333,ELEC,iPark NYC 455 Central Park West - Tesla Destination,27  West 105th St,New York,3.0,Tesla Destination,40.797875,-73.961228,150521,J1772 TESLA,,Free
+334,ELEC,333 Schermerhorn Garage - The Hub - Tesla Destination,333 Schermerhorn St,Brooklyn,4.0,Tesla Destination,40.68722,-73.981174,150532,TESLA,,Free
+335,ELEC,528 W 162nd Garage-PARK-it - Tesla Destination,528 W 162nd St,Manhattan,4.0,Tesla Destination,40.836425,-73.941393,150533,TESLA,,Free
+336,ELEC,4320 Broadway-PARK-it - Tesla Destination,4320 Broadway,Manhattan,4.0,Tesla Destination,40.852225,-73.934213,150534,TESLA,,Free
+337,ELEC,506 W 181 St Garage-PARK-it - Tesla Destination,506 W 181 St,Manhattan,4.0,Tesla Destination,40.848198,-73.931808,150535,TESLA,,Free
+338,ELEC,One Blue Slip-Greenpoint - Tesla Destination,1 Blue Slip,Brooklyn,5.0,Tesla Destination,40.736224,-73.959356,150540,J1772 TESLA,,Free
+339,ELEC,Bruno's Bakery and Restaurant - Tesla Destination,676 Forest Ave,Staten Island,2.0,Tesla Destination,40.629424,-74.111586,150541,TESLA,,Free
+340,ELEC,Icon Parking 202 E 18th Street - Tesla Destination,202 E 18th St,Manhattan,2.0,Tesla Destination,40.735561,-73.985319,150570,TESLA,,Free
+341,ELEC,Icon Parking 175 W 90th Street - Tesla Destination,175 W 90th St,Manhattan,4.0,Tesla Destination,40.790289,-73.972756,150572,TESLA,,Free
+342,ELEC,Enterprise Parking 545 Washington Ave - Tesla Destination,545 Washington Ave,Brooklyn,4.0,Tesla Destination,40.681876,-73.964169,150573,TESLA,,Free
+343,ELEC,Center Park 250 Albany - Tesla Destination,250 Albany St,Manhattan,4.0,Tesla Destination,40.709643,-74.015239,150574,TESLA,,Free
+344,ELEC,Enterprise Parking 150 Myrtle Ave - Tesla Destination,150 Myrtle Ave,Brooklyn,4.0,Tesla Destination,40.693194,-73.982701,150575,TESLA,,Free
+345,ELEC,Enterprise Parking 147 Flatbush Avenue Extension - Tesla Destination,147 Flatbush Ave Ext,Brooklyn,4.0,Tesla Destination,40.69504,-73.98394,150576,TESLA,,Free
+346,ELEC,IMPark 188 E 78th St - Tesla Destination,188 E 78th St,Manhattan,2.0,Tesla Destination,40.773467,-73.958287,150580,TESLA,,Free
+347,ELEC,IMPark 302 2nd St - Tesla Destination,302  2nd St,Brooklyn,4.0,Tesla Destination,40.674253,-73.985057,150581,TESLA,,Free
+348,ELEC,IPark 255 Schermerhorn - Tesla Destination,255 Schermerhorn St,Brooklyn,4.0,Tesla Destination,40.687927,-73.982998,150582,TESLA,,Free
+349,ELEC,IPark 99 3rd Avenue - Tesla Destination,99 3rd Ave,Brooklyn,4.0,Tesla Destination,40.683176,-73.981914,150583,TESLA,,Free
+350,ELEC,300 W 135 St - Little Man Parking - Tesla Destination,300 W 135 St,New York,4.0,Tesla Destination,40.816366,-73.947365,150596,TESLA,,Free
+351,ELEC,3050 Corlear Ave - Nagle Parking Inc. - Tesla Destination,3050 Corlear Ave,Bronx,4.0,Tesla Destination,40.8799,-73.907762,150624,TESLA,,Free
+352,ELEC,Icon Parking 515 E 72nd Street - Tesla Destination,515  E 72nd St,New York,3.0,Tesla Destination,40.766857,-73.952647,150660,J1772 TESLA,,Free
+353,ELEC,Brunos Bakery and Restaurant - Tesla Destination,1650 Hylan Blvd,Staten Island,2.0,Tesla Destination,40.588001,-74.090126,150697,TESLA,,Free
+354,ELEC,Manhattan Parking 110 LLC - Tesla Destination,543 W 110th St,New York,3.0,Tesla Destination,40.804167,-73.965894,150722,J1772 TESLA,,Free
+355,ELEC,Fordham University,441 E Fordham Rd,Bronx,8.0,Non-Networked,40.86095,-73.889379,153856,J1772,COLLEGE_CAMPUS,$0.25 per kWh
+356,ELEC,Dock72,1 Dock72 Way,Brooklyn,24.0,Non-Networked,40.700302,-73.972272,153865,J1772,OFFICE_BLDG,
+357,ELEC,Weill Cornell Medical,1305 York Ave,New York,2.0,Non-Networked,40.765378,-73.955054,153866,J1772,HOSPITAL,Free
+358,ELEC,Weill Cornell Medical,420 E 70th St,New York,2.0,Non-Networked,40.765313,-73.955553,153867,J1772,HOSPITAL,Free
+359,ELEC,United Nations,405 E 42nd St,New York,24.0,Non-Networked,40.748965,-73.969649,153870,J1772,OFFICE_BLDG,
+360,ELEC,Delancey and Essex Municipal Parking Garage,107 Essex St,New York,2.0,EV Connect,40.7193187,-73.9881965,155100,J1772,PARKING_GARAGE,
+361,ELEC,WCS NS1 SOUTHERN,2300 Southern Blvd,Bronx,2.0,ChargePoint Network,40.850625,-73.881132,162156,J1772,,
+362,ELEC,PANYNJ LGA E GARAGE C1,East Garage E End Rd LaGuardia Airport,New York,2.0,ChargePoint Network,40.77033,-73.865683,162407,J1772,,
+363,ELEC,BMW CAR SHARING THE SOLAIRE ST1,20 River Terrace,New York,,ChargePoint Network,40.716305,-74.016194,162413,J1772COMBO,,
+364,ELEC,MP 102 LLC MP 102 LLC,1214 Fifth Avenue,New York,2.0,ChargePoint Network,40.791267,-73.952039,162472,J1772,,
+365,ELEC,MONTEFIOREMOSES WAKEFIELD,613 E 233rd St,Bronx,2.0,ChargePoint Network,40.894881,-73.860525,162485,J1772,,
+366,ELEC,MONTEFIOREMOSES MOSES,111 E 210th St,New York,2.0,ChargePoint Network,40.879718,-73.880394,162486,J1772,,
+367,ELEC,MP 225 LLC NS1-100 JAY ST,100 Jay St,New York,2.0,ChargePoint Network,40.70182,-73.986824,162487,J1772,,
+368,ELEC,ATAHOUSING407 HAZEL TOWERS 1,1734-1774 Mulford Ave,Bronx,2.0,ChargePoint Network,40.846821,-73.834633,162498,J1772,,
+369,ELEC,LAFAYETTE BOYNT LAF BOYNT 1,901 Boynton Ave,Bronx,2.0,ChargePoint Network,40.821451,-73.877642,162499,J1772,,
+370,ELEC,CARCHARGING GMC 225 W 49 #1,225 W 49th St,New York,1.0,ChargePoint Network,40.761376,-73.985273,162520,J1772,,
+371,ELEC,Apple West Parking,303 West 96th Street,New York,4.0,Blink Network,40.795783,-73.973678,163485,J1772,,Level 2: $0.59 per kWh
+372,ELEC,165 E 77 ST Garage,165 E 77th Street,Manhattan,1.0,Blink Network,40.773528,-73.959538,163507,J1772,,Level 2: $0.59 per kWh
+373,ELEC,Gateway Center at Bronx Terminal Market,610 Exterior St,Bronx,2.0,Blink Network,40.822142,-73.931128,164227,J1772,,Level 2: $0.59 per kWh
+374,ELEC,Manhattan Plaza,427 W 42nd St,New York,2.0,Blink Network,40.759223,-73.992703,164442,J1772,,Level 2: $0.59 per kWh
+375,ELEC,Icon Parking - 111 Eighth Avenue,111 Eighth Avenue,New York,1.0,Blink Network,40.741421,-74.003186,164679,J1772,,Level 2: $0.59 per kWh
+376,ELEC,Icon Parking - Patriot Parking,376 Greenwich Street,New York,1.0,Blink Network,40.719772,-74.010475,164680,J1772,,Level 2: $0.59 per kWh
+377,ELEC,Icon Parking - One Lincoln Plaza,20 W 64th Street,New York,1.0,Blink Network,40.771626,-73.981032,164681,J1772,,Level 2: $0.59 per kWh
+378,ELEC,Tribeca Green,325 North End Ave,New York,2.0,Blink Network,40.71695,-74.014948,164713,J1772,,Level 2: $0.59 per kWh
+379,ELEC,Central Parking - 146 W 57th St,146 West 57th Street,New York,2.0,Blink Network,40.764609,-73.979517,164738,J1772,,Level 2: $0.59 per kWh
+380,ELEC,919 Third Avenue,919 3rd Avenue,Manhattan,1.0,Blink Network,40.759299,-73.968603,164749,J1772,,Level 2: $0.59 per kWh
+381,ELEC,Carnegie Hill,215 E 96th St,New York,2.0,Blink Network,40.784865,-73.948526,164751,J1772,,Level 2: $0.59 per kWh
+382,ELEC,170 Park Row,170 Park Row,New York,4.0,EV Connect,40.713246,-74.001,166242,J1772,PARKING_GARAGE,
+383,ELEC,CHHA2 Garages LLC,21 E 12th St,New York,4.0,EV Connect,40.733934,-73.993118,166324,J1772,PARKING_GARAGE,
+384,ELEC,CHHA2 Garages LLC,400 E 56th St,New York,6.0,EV Connect,40.757099,-73.963122,166325,J1772,PARKING_GARAGE,
+385,ELEC,CHHA2 Garages LLC,127 E 83rd St,Manhattan,4.0,EV Connect,40.777924,-73.957245,166326,J1772,PARKING_GARAGE,
+386,ELEC,Little Man Parking,962 Aldus St,Bronx,6.0,EV Connect,40.822935,-73.890483,166332,J1772,PARKING_GARAGE,
+387,ELEC,Little Man Parking,220 E 9th St,Manhattan,6.0,EV Connect,40.729483,-73.988368,166333,J1772,PARKING_GARAGE,
+388,ELEC,Little Man Parking,329 E 22nd St,Manhattan,6.0,EV Connect,40.736778,-73.979688,166334,J1772,PARKING_GARAGE,
+389,ELEC,Northwell,375 Seguine Ave,Staten Island,6.0,EV Connect,40.516856,-74.196692,166366,J1772,HOSPITAL,
+390,ELEC,Northwell,475 Seaview Ave,Staten Island,6.0,EV Connect,40.584259,-74.086919,166368,J1772,HOSPITAL,
+391,ELEC,Staten Island Mall,2655 Richmond Ave,Staten Island,2.0,Volta,40.58333,-74.166262,166727,J1772,SHOPPING_MALL,
+392,ELEC,Staten Island Mall,2655 Richmond Ave,Staten Island,4.0,Volta,40.582763,-74.167812,166728,J1772,SHOPPING_MALL,
+393,ELEC,Staten Island Mall,2655 Richmond Ave,Staten Island,2.0,Volta,40.581751,-74.168466,166729,J1772,SHOPPING_MALL,
+394,ELEC,Staten Island Mall,2655 Richmond Ave,Staten Island,2.0,Volta,40.581132,-74.167932,166730,J1772,SHOPPING_MALL,
+395,ELEC,National Grid - Staten Island,200 Gulf Ave,Staten Island,2.0,Non-Networked,40.624733,-74.179551,167773,J1772,UTILITY,
+396,ELEC,HAMPTON INN STATION 1,1120 South Ave,Staten Island,2.0,ChargePoint Network,40.612696,-74.179012,168146,J1772,,
+397,ELEC,CHHA2 Garages,532 W 122nd St,New York,4.0,EV Connect,40.811438,-73.960481,168414,J1772,PAY_GARAGE,
+398,ELEC,Courtyard by Marriott,183-15 Horace Harding Expy,Queens,6.0,EV Connect,40.74027,-73.790815,168422,J1772,HOTEL,
+399,ELEC,STATION 4TH FL MOTORGATE 3,680 Main St,New York,2.0,ChargePoint Network,40.764464,-73.946924,168524,J1772,,
+400,ELEC,STATION 4TH FL MOTORGATE #2,Main St/10 River Rd,New York,2.0,ChargePoint Network,40.764208,-73.947198,168525,J1772,,
+401,ELEC,iPark 34 N 7th Street - Tesla Destination,34 N 7th St,Brooklyn,8.0,Tesla Destination,40.720475,-73.96265,168539,TESLA,,Free
+402,ELEC,551W21 SR Capital - Tesla Destination,558 West 21st Street,New York,6.0,Tesla Destination,40.747278,-74.007618,168556,TESLA,,Free
+403,ELEC,577 Baltic Street - Adam America Real Estate - Tesla Destination,577 Baltic Street,Brooklyn,4.0,Tesla Destination,40.681251,-73.981971,168557,TESLA,,Free
+404,ELEC,610 Warren Street - Tesla Destination,610 Warren Street,Brooklyn,6.0,Tesla Destination,40.681274,-73.981216,168558,TESLA,,Free
+405,ELEC,Enterprise Parking 219 E 69th St - Tesla Destination,219 E 69th St,New York,3.0,Tesla Destination,40.767519,-73.960678,168757,J1772 TESLA,,Free
+406,ELEC,iPark 314 W 120th Street - Tesla Destination,314 West 120th Street,New York,3.0,Tesla Destination,40.806974,-73.954006,168885,J1772 TESLA,,Free
+407,ELEC,Nap York - Tesla Destination,480 7th Avenue,New York,1.0,Tesla Destination,40.752301,-73.99,168977,TESLA,,Free
+408,ELEC,Park Kwik - 110 Livingston - Tesla Destination,110 Livingston St,Brooklyn,4.0,Tesla Destination,40.690809,-73.990016,169008,J1772 TESLA,,Free
+409,ELEC,Park Kwik - 211 Atlantic - Tesla Destination,211 Atlantic Ave,Brooklyn,6.0,Tesla Destination,40.689671,-73.991786,169009,J1772 TESLA,,Free
+410,ELEC,Park Kwik-300 Ashland - Tesla Destination,300 Ashland Pl,Brooklyn,4.0,Tesla Destination,40.686628,-73.978374,169010,TESLA,,Free
+411,ELEC,Park N Go - E 121 St - Tesla Destination,210 E 121st St,New York,4.0,Tesla Destination,40.800795,-73.937382,169011,TESLA,,Free
+412,ELEC,Parkit 200 West End Ave - Tesla Destination,200 West End Ave,New York,5.0,Tesla Destination,40.777982,-73.985407,169014,J1772 TESLA,,Free
+413,ELEC,Rapidpark 205 W 101st Street - Tesla Destination,205 W 101st Street,New York,3.0,Tesla Destination,40.797676,-73.968479,169060,J1772 TESLA,,Free
+414,ELEC,"The Standard, East Village - Tesla Destination",25 Cooper Street,New York,3.0,Tesla Destination,40.867375,-73.924227,169201,J1772 TESLA,,Free
+415,ELEC,"Trump Golf Links, Ferry Point - Tesla Destination",500 Hutchinson River Parkway,Bronx,8.0,Tesla Destination,40.811072,-73.835502,169223,TESLA,,Free
+416,ELEC,Icon Parking - Claridge 87 Parking,200-206 E 88th Street,New York,1.0,Blink Network,40.779687,-73.952595,169359,J1772,,Level 2: $0.59 per kWh
+417,ELEC,Imperial Parking,332-342 E 34th St,New York,2.0,Blink Network,40.7440113,-73.9741155,169851,J1772,,Level 2: $0.59 per kWh
+418,ELEC,STATION 4TH FL MOTORGATE #1,688 Main St,New York,2.0,ChargePoint Network,40.764429,-73.946793,169880,J1772,,
+419,ELEC,Icon Parking 1114 Ave & 6th,1114 Avenue of the Americas,New York,1.0,Blink Network,40.755245,-73.983406,169937,J1772,,Level 2: $0.59 per kWh
+420,ELEC,NYC FLEET DPR_ICAHN_1_L3,10 Central Rd,New York,,ChargePoint Network,40.792194,-73.92455,170122,CHADEMO J1772COMBO,,
+421,ELEC,The St. Regis,Two East 55th Street,New York,1.0,SemaCharge Network,40.7613979,-73.9746128,170181,J1772,,FREE
+422,ELEC,WCS NS1 ASIA,Boston Rd,Bronx,2.0,ChargePoint Network,40.846612,-73.876323,173506,J1772,,
+423,ELEC,TATABROOKFIELD #2,11 E Loop Rd,New York,1.0,ChargePoint Network,40.755077,-73.955605,174179,J1772,,
+424,ELEC,TATABROOKFIELD GATEWAY #1,11 E Loop Rd,New York,1.0,ChargePoint Network,40.755024,-73.955605,174180,J1772,,
+425,ELEC,TATABROOKFIELD #8,11 E Loop Rd,New York,1.0,ChargePoint Network,40.75533,-73.95569,174181,J1772,,
+426,ELEC,TATABROOKFIELD #7,11 E Loop Rd,New York,1.0,ChargePoint Network,40.755314,-73.955605,174182,J1772,,
+427,ELEC,TATABROOKFIELD #6,11 E Loop Rd,New York,1.0,ChargePoint Network,40.75516,-73.955605,174183,J1772,,
+428,ELEC,TATABROOKFIELD #5,11 E Loop Rd,New York,1.0,ChargePoint Network,40.755142,-73.9556,174184,J1772,,
+429,ELEC,TATABROOKFIELD #4,11 E Loop Rd,New York,1.0,ChargePoint Network,40.755108,-73.955605,174185,J1772,,
+430,ELEC,35 SUTTON 1 SUTTON PL 2,35 Sutton Pl,New York,2.0,ChargePoint Network,40.75824,-73.95967,174616,J1772,,
+431,ELEC,PANYNJ JFK Y GARAGE 1,JFK Access Rd JFK International Airport,Queens,2.0,ChargePoint Network,40.645659,-73.779481,174641,J1772,,
+432,ELEC,PANYNJ JFK Y GARAGE 5,JFK Access Road JFK International Airport,Queens,2.0,ChargePoint Network,40.645916,-73.779152,174642,J1772,,
+433,ELEC,PANYNJ JFK Y GARAGE 3,JFK Access Road JFK International Airport,Queens,2.0,ChargePoint Network,40.645758,-73.779314,174643,J1772,,
+434,ELEC,PANYNJ LGA E GARAGE W1,East Garage E End Rd LaGuardia Airport,New York,2.0,ChargePoint Network,40.770752,-73.866327,180166,J1772,,
+435,ELEC,HAMPTON INN STATION 4,1120 South Ave,Staten Island,2.0,ChargePoint Network,40.612678,-74.178885,181661,J1772,,
+436,ELEC,HAMPTON INN STATION 2,1120 South Ave,Staten Island,2.0,ChargePoint Network,40.612688,-74.178948,181662,J1772,,
+437,ELEC,HAMPTON INN STATION 3,1120 South Ave,Staten Island,2.0,ChargePoint Network,40.612671,-74.17882,181663,J1772,,
+438,ELEC,HAMPTON INN STATION 5,1120 South Ave,Staten Island,2.0,ChargePoint Network,40.612706,-74.179076,181664,J1772,,
+439,ELEC,NYC FLEET DPR_ICAHN_3_L3,10 Central Rd,New York,,ChargePoint Network,40.7923,-73.92468,181932,CHADEMO J1772COMBO,,
+440,ELEC,NYC FLEET DPR_ICAHN_2_L3,10 Central Rd,New York,,ChargePoint Network,40.79237,-73.924644,181933,CHADEMO J1772COMBO,,
+441,ELEC,CHHA2 Garages,351 E 84th St,New York,2.0,EV Connect,40.77599,-73.95044,183937,J1772,PARKING_GARAGE,
+442,ELEC,VISN 2/NYHHCS/MANHATTAN,423 E 23rd St,New York,1.0,Non-Networked,40.737182,-73.976713,184330,J1772,FED_GOV,$0.13 per kWh
+443,ELEC,FLUSHING,41-01 Main St,Queens,2.0,Non-Networked,40.756604,-73.828138,184437,J1772,FED_GOV,
+444,ELEC,ANSONIA,178 Columbus Ave,New York,5.0,Non-Networked,40.77493,-73.980969,184521,J1772,FED_GOV,
+445,ELEC,MANHATTAN VMF,241 11th Ave,New York,15.0,Non-Networked,40.750397,-74.006467,184561,J1772,FED_GOV,Free
+446,ELEC,Canarsie - National Grid,8424 Ditmas Ave,Brooklyn,5.0,Non-Networked,40.64554,-73.918344,185493,J1772,UTILITY,
+447,ELEC,1510 Lex Garage,1510 Lexington Avenue,Manhattan,1.0,Blink Network,40.786732,-73.950411,185709,J1772,,Level 2: $0.59 per kWh
+448,ELEC,Beekman Garage,25 Beekman St,New York,1.0,Blink Network,40.710636,-74.006195,186601,J1772,,Level 2: $0.59 per kWh
+449,ELEC,Eastway Parking,225 W 49th St,New York,2.0,Blink Network,40.76211452,-73.98525398,187765,J1772,,Level 2: $0.59 per kWh
+450,ELEC,Beltmont Parking,113 E 84th St,New York,1.0,Blink Network,40.7789084,-73.957318,187814,J1772,,Level 2: $0.59 per kWh
+451,ELEC,Beekman Parking,420 E 51st St,New York,2.0,Blink Network,40.7547868,-73.965044,187815,J1772,,Level 2: $0.59 per kWh
+452,ELEC,Red Ball Garage,142 E 31st Street,Manhattan,1.0,Blink Network,40.74473006,-73.98049771,187816,J1772,,Level 2: $0.59 per kWh
+453,ELEC,Travelers Parking,160 W 10th Street,New York,1.0,Blink Network,40.735094,-74.00187,187817,J1772,,Level 2: $0.59 per kWh
+454,ELEC,Gotham Parking,550 West 45th Street,New York,2.0,Blink Network,40.763212,-73.99629,187883,J1772,,Level 2: $0.59 per kWh
+455,ELEC,New Systems,337 E 64th St,New York,2.0,Blink Network,40.7632,-73.960185,187918,J1772,,Level 2: $0.59 per kWh
+456,ELEC,Minetta Garage,122 West 3rd Street,New York,2.0,Blink Network,40.73137973,-74.0007049,188148,J1772,,Level 2: $0.59 per kWh
+457,ELEC,Strathmore,400 E 84th St,New York,2.0,Blink Network,40.775203,-73.950295,189047,J1772,,Level 2: $0.59 per kWh
+458,ELEC,Manhattan Parking Group,10 Columbus Circle,Manhattan,1.0,Blink Network,40.768721,-73.983487,189112,J1772,,Level 2: $0.59 per kWh
+459,ELEC,NYC Parking 200,1081 3rd Avenue,New York,1.0,Blink Network,40.764578,-73.964757,189315,J1772,,Level 2: $0.59 per kWh
+460,ELEC,Duford Studios,127 E 83rd Street,New York,1.0,Blink Network,40.778527,-73.9572042,189362,J1772,,Level 2: $0.59 per kWh
+461,ELEC,Laureate Garage,2148 Broadway,New York,2.0,Blink Network,40.7820682,-73.9803779,189363,J1772,,Level 2: $0.59 per kWh
+462,ELEC,Tunnel Garage,300 E 34th Street,New York,1.0,Blink Network,40.745282,-73.975719,189546,J1772,,Level 2: $0.59 per kWh
+463,ELEC,Icon Parking - Hudson,375 Hudson Street,New York,1.0,Blink Network,40.728704,-74.00765,189759,J1772,,Level 2: $0.59 per kWh
+464,ELEC,GMC Parking Garage - 200 Central,200 Central Park South,New York,1.0,Blink Network,40.766719,-73.979533,190107,J1772,,Level 2: $0.59 per kWh
+465,ELEC,Discover 97 Parking LLC,750 Columbus Avenue,New York,2.0,Blink Network,40.793416,-73.967719,190531,J1772,,Level 2: $0.59 per kWh
+466,ELEC,iPark - 67th Street,3 East 67th Street,New York,1.0,Blink Network,40.769134,-73.968707,190532,J1772,,Level 2: $0.59 per kWh
+467,ELEC,5935 Broadway,5935 Broadway,Bronx,4.0,FLO,40.888461,-73.899119,191505,J1772,,
+468,ELEC,3474 Putnam Place,3474 Putnam Place,Bronx,2.0,FLO,40.879413,-73.875485,191506,J1772,,
+469,ELEC,GMC Vic Mar Parking,8 E 83rd St,New York,1.0,Blink Network,40.779829,-73.960581,192740,J1772,,Level 2: $0.59 per kWh
+470,ELEC,4 W 93rd St,4 W 93rd St,New York,2.0,FLO,40.789958,-73.966488,192949,J1772,,
+471,ELEC,NYC FLEET DPRWFMARINA#3,109-5 Marina Rd,Queens,1.0,ChargePoint Network,40.760424,-73.856316,193126,J1772,,
+472,ELEC,NYC FLEET DPR_VCP-ARC1,189 Van Cortlandt Ave W,Bronx,1.0,ChargePoint Network,40.88734,-73.89526,193837,J1772,,
+473,ELEC,NYC FLEET DPR_VCP-ARC2,Van Cortlandt Park Major Deegan Expy,Bronx,1.0,ChargePoint Network,40.892423,-73.882373,193838,J1772,,
+474,ELEC,NYC Parking Kent,444 Kent Avenue,Brooklyn,2.0,Blink Network,40.709168,-73.968491,193979,J1772,,Level 2: $0.59 per kWh
+475,ELEC,iPark - Enterprise Parking,315 E 40th Street,New York,1.0,Blink Network,40.748359,-73.972213,193980,J1772,,Level 2: $0.59 per kWh
+476,ELEC,170 E End Ave,170 E End Ave,New York,2.0,FLO,40.775792,-73.944015,194168,J1772,,
+477,ELEC,498 E 67th St,498 E 67th St,New York,2.0,FLO,40.763723,-73.956354,194169,J1772,,
+478,ELEC,101 E 78th St,101 E 78th St,New York,2.0,FLO,40.774878,-73.960671,194170,J1772,,
+479,ELEC,383 Court St,383 Court St,Brooklyn,2.0,FLO,40.680484,-73.996719,194646,J1772,,
+480,ELEC,99 Prospect Park W,99 Prospect Park W,Brooklyn,2.0,FLO,40.66696,-73.975032,194647,J1772,,
+481,ELEC,Revel Brooklyn Superhub,467 Marcy Ave,Brooklyn,,EVGATEWAY,40.69933379421704,-73.94966479629517,194700,CHADEMO J1772COMBO TESLA,PARKING_LOT,$0.39 per kWh
+482,ELEC,"Walgreens - Brooklyn, NY #15097",589 Prospect Avenue,Brooklyn,1.0,SemaCharge Network,40.6567801,-73.9777597,194845,J1772,,$2.00/Hr Parking Fee
+483,ELEC,EVolve NY JFK Airport,130th Place Between E & W Hangar Road,Queens,,Electrify America,40.656083,-73.808091,194919,CHADEMO J1772COMBO,,
+484,ELEC,iPark - 59 Allen Street Garage,59 Allen Street,New York,2.0,Blink Network,40.717195,-73.991658,195054,J1772,,Level 2: $0.59 per kWh
+485,ELEC,Peninsula New York,700 5th Avenue,New York,1.0,SemaCharge Network,40.7616221,-73.9754656,195065,J1772,,FREE
+486,ELEC,33 Norman Ave,33 Norman Ave,Brooklyn,4.0,FLO,40.724591,-73.954512,195667,J1772,,
+487,ELEC,1235 Linden Blvd,1235 Linden Blvd,Brooklyn,4.0,FLO,40.654381,-73.913436,195668,J1772,,
+488,ELEC,1065 Elton St,1065 Elton St,Brooklyn,4.0,FLO,40.657441,-73.874619,196329,J1772,,
+489,BD,NPS NERO - STIS - Fort Wadsworth - Mechanic Shop - Fuel Station 1,207 New York Ave,Staten Island,,,40.60391,-74.058548,196609,,NATL_PARK,
+490,E85,NPS NERO - STIS - Fort Wadsworth - Mechanic Shop - Fuel Station 1,207 New York Ave,Staten Island,,,40.60391,-74.058548,196619,,NATL_PARK,
+491,ELEC,626 Sheepshead Bay Rd - Parking,626 Sheepshead Bay Rd,Brooklyn,7.0,Blink Network,40.57863,-73.975218,197548,J1772,,Level 2: $0.59 per kWh
+492,ELEC,Gramercy Plaza  - Parking Garage,130 East 18th St,New York,2.0,Blink Network,40.7362174,-73.98666508,197593,J1772,,Level 2: $0.59 per kWh
+493,ELEC,597 Clarkson Ave,597 Clarkson Ave,Brooklyn,4.0,FLO,40.656102,-73.940436,197855,J1772,,
+494,ELEC,277 Park Avenue,277 Park Ave,New York,20.0,EV Connect,40.7548972601546,-73.9741069536151,198016,J1772,PARKING_GARAGE,
+495,ELEC,West 90th Garage Corp,101 W 90th St,New York,6.0,EV Connect,40.7893808473284,-73.9708225218492,198017,J1772,PARKING_GARAGE,
+496,ELEC,Walgreens,589 Prospect Ave,Brooklyn,,eVgo Network,40.656459,-73.977527,198587,CHADEMO J1772COMBO,,
+497,ELEC,167-149 Meeker Ave,167-149 Meeker Ave,Brooklyn,6.0,FLO,40.714318,-73.953186,199108,J1772,,
+498,ELEC,831 3rd Ave,831 3rd Ave,Brooklyn,6.0,FLO,40.6567661818936,-74.0048016913848,199508,J1772,,
+499,ELEC,115 Fort Washington Ave,115 Fort Washington Ave,New York,2.0,FLO,40.839756,-73.943345,200474,J1772,,
+500,ELEC,2 Bedford Park Blvd W,2 Bedford Park Blvd W,Bronx,4.0,FLO,40.875421459966,-73.8939407447884,200599,J1772,,
+501,ELEC,Highrise Parking,210 W 71st Street,New York,1.0,Blink Network,40.777905,-73.982299,200627,J1772,,Level 2: $0.59 per kWh
+502,ELEC,NYU NYU # 2,2 Washington Square Village,New York,2.0,ChargePoint Network,40.728283,-73.997251,200987,J1772,,
+503,ELEC,NYU NYU # 1,2 Washington Square Village,New York,2.0,ChargePoint Network,40.72808,-73.99724,200988,J1772,,
+504,ELEC,3500 Dekalb Ave,3500 Dekalb Ave,Bronx,2.0,FLO,40.882337,-73.880265,201636,J1772,,
+505,ELEC,Central Parking - 109 E 58th Street,109 E 58th Street,New York,1.0,Blink Network,40.762199,-73.969557,201870,J1772,,Level 2: $0.59 per kWh
+506,ELEC,Central Parking - 350 E 30th Street,350 E 30th Street,New York,1.0,Blink Network,40.741065,-73.975788,201878,J1772,,Level 2: $0.59 per kWh
+507,ELEC,7 Marcus Garvey Blvd,7 Marcus Garvey Blvd,Brooklyn,2.0,FLO,40.700039,-73.941261,202055,J1772,,
+508,ELEC,145 Brooklyn Ave,145 Brooklyn Ave,Brooklyn,2.0,FLO,40.674612,-73.944569,202163,J1772,,
+509,ELEC,484 43rd St,484 43rd St,Brooklyn,2.0,FLO,40.649116,-74.006479,202164,J1772,,
+510,ELEC,352 8th St,352 8th St,Brooklyn,2.0,FLO,40.668517,-73.983283,202165,J1772,,
+511,ELEC,395 Lenox Rd,395 Lenox Rd,Brooklyn,4.0,FLO,40.654476,-73.946741,202766,J1772,,
+512,ELEC,419 Stuyvesant Ave,419 Stuyvesant Ave,Brooklyn,2.0,FLO,40.679727,-73.931347,202930,J1772,,
+513,ELEC,134 N 4th St,134 N 4th St,Brooklyn,4.0,FLO,40.716441,-73.960043,202931,J1772,,
+514,ELEC,33-10 Queens Blvd,33-10 Queens Blvd,Queens,4.0,FLO,40.7443625,-73.93112013,204691,J1772,,
+515,ELEC,7-Eleven,500 Baychester Ave,Bronx,4.0,EV Connect,40.8690276772083,-73.8315760899824,205822,J1772,GAS_STATION,
+516,ELEC,Northeast Bronx YMCA,1250 E 229th St,Bronx,4.0,Non-Networked,40.8827858370269,-73.8419855959349,205826,J1772,REC_SPORTS_FACILITY,
+517,ELEC,LIN-DAN RICK,329 E 21st St,New York,2.0,ChargePoint Network,40.736148,-73.980154,205858,J1772,,
+518,ELEC,LIN-DAN MORTY,329 E 21st St,New York,2.0,ChargePoint Network,40.736161,-73.980267,205859,J1772,,
+519,ELEC,1 WATERLINE STATION#8,10 Riverside Blvd,New York,2.0,ChargePoint Network,40.772871,-73.992514,207729,J1772,,
+520,ELEC,1 WATERLINE STATION#3,10 Riverside Blvd,New York,2.0,ChargePoint Network,40.773005,-73.992868,207730,J1772,,
+521,ELEC,1 WATERLINE STATION#2,10 Riverside Blvd,New York,2.0,ChargePoint Network,40.772952,-73.992622,207731,J1772,,
+522,ELEC,1 WATERLINE STATION#1,10 Riverside Blvd,New York,2.0,ChargePoint Network,40.772896,-73.992536,207795,J1772,,
+523,ELEC,1 WATERLINE STATION#5,10 Riverside Blvd,New York,2.0,ChargePoint Network,40.772904,-73.992514,207796,J1772,,
+524,ELEC,1 WATERLINE STATION#4,10 Riverside Blvd,New York,2.0,ChargePoint Network,40.77292,-73.992546,207888,J1772,,
+525,ELEC,1 WATERLINE STATION#6,10 Riverside Blvd,New York,2.0,ChargePoint Network,40.772912,-73.992589,207889,J1772,,
+526,ELEC,WATERLINE 2W STATION 2,400 W 61st St,New York,2.0,ChargePoint Network,40.7733,-73.991532,211962,J1772,,
+527,ELEC,Stop & Shop #566 - Arverne By-the-sea,70-20 Rockaway Beach Blvd,Queens,2.0,Volta,40.589841,-73.800082,212485,J1772,,
+528,ELEC,Icon Mercury Parking,350 W 50th Street,New York,1.0,Blink Network,40.76324463,-73.98864745,213081,J1772,,Level 2: $0.59 per kWh
+529,ELEC,SP+ - 200 Chambers Street Garage,200 Chambers St,New York,1.0,Blink Network,40.7163,-74.01258,213516,J1772,,Level 2: $0.59 per kWh
+530,ELEC,Eventi Hotel,851 Avenue of the Americas,New York,1.0,Blink Network,40.758681,-73.98135,213916,J1772,,Level 2: $0.59 per kWh
+531,ELEC,79-01 Broadway,79-01 Broadway,Queens,2.0,FLO,40.745853,-73.884134,216616,J1772,,
+532,ELEC,34-20 30th Ave,34-20 30th Ave,Queens,2.0,FLO,40.7652332,-73.9184356,216617,J1772,,
+533,ELEC,125 W 76th Street,125 W 76th Street,New York,2.0,FLO,40.7803975,-73.9777289,216618,J1772,,
+534,ELEC,COLUMBIA 560 RSD - 2,560 Riverside Drive,New York,2.0,ChargePoint Network,40.816698,-73.960577,217316,J1772,,
+535,ELEC,Central Parking - 115 E 87th St,115 East 87th Street,New York,2.0,Blink Network,40.780678,-73.956269,217341,J1772,,Level 2: $0.59 per kWh
+536,ELEC,INDUSTRY CITY LOT B EAST,533 2nd Ave,Brooklyn,2.0,ChargePoint Network,40.659338,-74.006454,217354,J1772,,
+537,ELEC,Bridge Towers Location 1,111 Wadsworth Ave,New York,5.0,Blink Network,40.848202,-73.935857,218294,J1772,,Level 2: $0.59 per kWh
+538,ELEC,Energy Plus Site 8,11 Riverside Dr,New York,1.0,Blink Network,40.781104,-73.984478,219453,J1772,,Level 2: $0.59 per kWh
+539,ELEC,Empire Outlets Garage,35B Richmond Terrace,Staten Island,5.0,Volta,40.6447631696563,-74.0758370071514,220701,J1772,PARKING_GARAGE,
+540,ELEC,T.J. Maxx,430 New Drop Ln,Staten Island,2.0,Volta,40.5690444034597,-74.1095755305259,220702,J1772,PARKING_LOT,
+541,ELEC,Prestige Parking Corp,25 Sutton Place South,New York,1.0,Blink Network,40.7565187377,-73.9610743999,221322,J1772,,Level 2: $0.59 per kWh
+542,ELEC,First Avenue Parking,630 1st Avenue,New York,2.0,Blink Network,40.745096,-73.971921,221326,J1772,,Level 2: $0.59 per kWh
+543,ELEC,HCBR STATION 1,9013 4th Ave,Brooklyn,1.0,ChargePoint Network,40.619335,-74.029466,221556,J1772,,
+544,ELEC,MPG Parking,475 West 41st St,New York,2.0,Blink Network,40.758967,-73.995189,221880,J1772,,Level 2: $0.59 per kWh
+545,ELEC,266 13th St,266 13th St,Brooklyn,2.0,FLO,40.667017,-73.988698,222574,J1772,,
+546,ELEC,160 W 84th St,160 W 84th St,Manhattan,2.0,FLO,40.786312,-73.97569,222579,J1772,,
+547,ELEC,Rapid Park - 204 W 101 st,204 W 101st St,New York,8.0,LIVINGSTON,40.79743,-73.9687,223088,J1772,PARKING_GARAGE,
+548,ELEC,Rapid Park - 205 W 101 st,205 W 101st St,New York,8.0,LIVINGSTON,40.79766,-73.96838,223089,J1772,PARKING_GARAGE,
+549,ELEC,Rapid Park - 44 State St,44 State St,Brooklyn,6.0,LIVINGSTON,40.6918,-73.99829,223100,J1772,PAY_GARAGE,
+550,ELEC,411 West 55th St,411 W 55th St,New York,4.0,LIVINGSTON,40.76709,-73.98733,223115,J1772,PAY_GARAGE,
+551,ELEC,906 Union St,906 Union St,Brooklyn,4.0,LIVINGSTON,40.67283,-73.97175,223116,J1772,PAY_GARAGE,
+552,ELEC,301 E. 79th St.,301 E. 79th St.,New York,4.0,LIVINGSTON,40.76939,-73.96546,223240,J1772,PAY_GARAGE,
+553,ELEC,550 W. 45th St.,550 W. 45th St,New York,4.0,LIVINGSTON,40.7624,-73.99635,223241,J1772,PAY_GARAGE,
+554,ELEC,435 E. 55th St.,435 E 55th St,New York,4.0,LIVINGSTON,40.75657,-73.96226,223256,J1772,PAY_GARAGE,
+555,ELEC,420 E. 53rd St.,420 E 53rd,New York,6.0,LIVINGSTON,40.75527,-73.96386,223257,J1772,PAY_GARAGE,
+556,ELEC,449 East 49th Street,449 East 49th Street,New York,6.0,LIVINGSTON,40.75267,-73.96482,223258,J1772,PAY_GARAGE,
+557,ELEC,337 E 64th St.,337 East 64th St,New York,4.0,LIVINGSTON,40.76327,-73.96024,223264,J1772,PAY_GARAGE,
+558,ELEC,4 W 21st St.,4 W 21st St,New York,4.0,LIVINGSTON,40.74057,-73.99147,223265,J1772,PAY_GARAGE,
+559,ELEC,210 W 76th St.,210 W 76th St,New York,4.0,LIVINGSTON,40.78126,-73.98044,223266,J1772,PAY_GARAGE,
+560,ELEC,142 E 31st St.,142 E 31st St,New York,4.0,LIVINGSTON,40.74415,-73.98046,223267,J1772,PAY_GARAGE,
+561,ELEC,44 W 62nd St.,44 W 62nd St,New York,4.0,LIVINGSTON,40.7708,-73.98323,223268,J1772,PAY_GARAGE,
+562,ELEC,333 E 75th St.,333 E 75th St,New York,4.0,LIVINGSTON,40.7702,-73.95525,223269,J1772,PAY_GARAGE,
+563,ELEC,225 W 49th St,225 W 49th St,New York,4.0,LIVINGSTON,40.76154,-73.98518,223273,J1772,PAY_GARAGE,
+564,ELEC,11 East 86th Street,11 East 86th St,New York,2.0,LIVINGSTON,40.78147,-73.95986,223278,J1772,PAY_GARAGE,
+565,ELEC,110 East End Ave,110 East End Ave,New York,4.0,LIVINGSTON,40.77447,-73.94599,223281,J1772,PAY_GARAGE,
+566,ELEC,200 East End Ave,200 East End Ave,New York,4.0,LIVINGSTON,40.77729,-73.94355,223282,J1772,PAY_GARAGE,
+567,ELEC,55 East End Ave,55 East End Ave,New York,6.0,LIVINGSTON,40.772,-73.94639,223283,J1772,PAY_GARAGE,
+568,ELEC,305 East 80th Street,305 East 80th St,New York,4.0,LIVINGSTON,40.77397,-73.9539,223292,J1772,PAY_GARAGE,
+569,ELEC,231 E 94th Street,231 E 94th St,New York,4.0,LIVINGSTON,40.78351,-73.94888,223297,J1772,PAY_GARAGE,
+570,ELEC,203 E 71st St.,203 E 71st St,New York,4.0,LIVINGSTON,40.76894,-73.96047,223298,J1772,PAY_GARAGE,
+571,ELEC,181 E 73rd Street,181 East 73rd St,New York,4.0,LIVINGSTON,40.77082,-73.96068,223299,J1772,PAY_GARAGE,
+572,ELEC,191 East 71st Street,191 E 71st St,New York,4.0,LIVINGSTON,40.76942,-73.76942,223300,J1772,PAY_GARAGE,
+573,ELEC,DOCK STATION 9,1540 Broadway,New York,1.0,ChargePoint Network,40.761082,-73.968188,223322,J1772,,
+574,ELEC,DOCK STATION 10,1540 Broadway,New York,1.0,ChargePoint Network,40.757839,-73.984391,223323,J1772,,
+575,ELEC,Lincoln Square Garage,178 W 69th Street,New York,1.0,Blink Network,40.776152,-73.98282,223392,J1772,,Level 2: $0.59 per kWh
+576,ELEC,320 Mason Ave,320 Mason Ave,New York,4.0,FLO,40.5849843769658,-74.0880435921124,223526,J1772,,
+577,ELEC,Supercharge NYC,1074 Grand St,Brooklyn,2.0,CHARGELAB,40.7136044677631,-73.93309885767226,223588,CHADEMO J1772,OTHER,0.43 kW/h
+578,ELEC,35 Red Cross Pl,35 Red Cross Pl,Brooklyn,1.0,FLO,40.6994875,-73.9895156,223717,J1772,,
+579,ELEC,Delancey & Essex Municipal Parking Garage,107 Essx St,New York,,EV Connect,40.7193187,-73.9881965,224172,CHADEMO J1772COMBO,PARKING_GARAGE,
+580,ELEC,40 N 4th St Apartments,40 N 4th ST,Brooklyn,16.0,Blink Network,40.718391,-73.963339,224261,J1772,,Level 2: $0.59 per kWh
