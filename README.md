@@ -14,8 +14,29 @@
 ## Descripción
 Este proyecto busca innovar en el transporte urbano de Nueva York a través de taxis ecológicos. Nuestro objetivo es reducir la huella de carbono y mejorar la calidad del aire en la ciudad.
 
+el Cliente: Una empresa de servicios de transporte de pasajeros.
+ Objetivo: invertir en el transporte de pasajeros con automóviles, implementando  vehículos eléctricos, en Nueva York
+
 ## Instalación
 Instrucciones para configurar el proyecto localmente.
+
+## Tecnologías
+![Sin título](https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/7e8b186e-536a-4f1a-8274-31c7b988d25f)
+Python para explorar, analizar y manipular los datos.
+
+![images](https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/31266ed3-dc37-47f6-a47d-0d282fc5d384)
+SQL para generar las bases de datos.
+
+![Sin título](https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/2b471dc4-5b3d-40d3-bdcb-c532e39105da)
+Google cloud para almacenar las bases de datos
+
+![Sin título](https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/e57db05e-b1d1-45bc-9f7b-2011159bd9a2)
+Power bi para mostrar las relaciones entre los datos.
+
+KEY PERFORMANCE INDICATOR:
+Se analiza mediante los KPI de los datos actuales de los vehiculos de taxis y la contaminación de Nueva York, para entender el desarrollo de la movilidad en vehiculos particulares.
+
+
 
 ```bash
 git clone https://github.com/usuario/taxis-ecologicos-nyc.git
