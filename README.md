@@ -21,16 +21,18 @@ el Cliente: Una empresa de servicios de transporte de pasajeros.
 Instrucciones para configurar el proyecto localmente.
 
 ## Tecnologías
-(<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/31266ed3-dc37-47f6-a47d-0d282fc5d384" width="20" height="20">)
+
+<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/593717f4-8f10-4293-9ac5-456ee414c058" width="50" height="50">
+
 Python para explorar, analizar y manipular los datos.
 
-![Sin título](img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/f84d0404-1b85-4024-b119-fe45030e6e08" width="20" height="20")
+<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/31266ed3-dc37-47f6-a47d-0d282fc5d384" width="50" height="50">
 SQL para generar las bases de datos.
 
-![Sin título](https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/2b471dc4-5b3d-40d3-bdcb-c532e39105da)
+<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/2b471dc4-5b3d-40d3-bdcb-c532e39105da" width="50" height="50">
 Google cloud para almacenar las bases de datos
 
-![Sin título](https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/e57db05e-b1d1-45bc-9f7b-2011159bd9a2)
+<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/e57db05e-b1d1-45bc-9f7b-2011159bd9a2" width="50" height="50">
 Power bi para mostrar las relaciones entre los datos.
 
 KEY PERFORMANCE INDICATOR:
