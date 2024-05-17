@@ -3,8 +3,8 @@
 </p>
 
 # EcoDataAnalyst
-
-
+  Nuestro compromiso es ayudarle a ver el mejor panorama ecologico para complir sus metas.
+  
 # Taxis Ecológicos NYC
 
 <center>
@@ -38,8 +38,14 @@ Google cloud para almacenar las bases de datos
 
 Power bi para mostrar las relaciones entre los datos.
 
-KEY PERFORMANCE INDICATOR:
+## KEY PERFORMANCE INDICATOR:
+
 Se analiza mediante los KPI de los datos actuales de los vehiculos de taxis y la contaminación de Nueva York, para entender el desarrollo de la movilidad en vehiculos particulares.
+
+1. Reducción del %  la huella de carbono mensual dada una inversión inicial de Capital para remplazo parcial o total de la flota de Vehículos de la compañía.
+2. Aumentar mensualmente los ingresos por concepto de viajes mensuales.
+3. Tasa de retorno de inversión anualizado por el remplazo total o parcial de la flota de taxis
+   
 
 
 
