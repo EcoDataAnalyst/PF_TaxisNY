@@ -21,10 +21,10 @@ el Cliente: Una empresa de servicios de transporte de pasajeros.
 Instrucciones para configurar el proyecto localmente.
 
 ## Tecnologías
-![Sin título](https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/7e8b186e-536a-4f1a-8274-31c7b988d25f, width="200" height="200")
+(<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/31266ed3-dc37-47f6-a47d-0d282fc5d384" width="20" height="20">)
 Python para explorar, analizar y manipular los datos.
 
-![images](<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/31266ed3-dc37-47f6-a47d-0d282fc5d384" width="20" height="20"> )
+![Sin título](img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/f84d0404-1b85-4024-b119-fe45030e6e08" width="20" height="20")
 SQL para generar las bases de datos.
 
 ![Sin título](https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/2b471dc4-5b3d-40d3-bdcb-c532e39105da)
