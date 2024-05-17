@@ -23,8 +23,9 @@ Instrucciones para configurar el proyecto localmente.
 ## Tecnologías
 ![Sin título](https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/7e8b186e-536a-4f1a-8274-31c7b988d25f, width="200" height="200")
 Python para explorar, analizar y manipular los datos.
+<img src="https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/7e8b186e-536a-4f1a-8274-31c7b988d25f" width="200" height="200">
 
-![images](https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/31266ed3-dc37-47f6-a47d-0d282fc5d384)
+![images](<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/31266ed3-dc37-47f6-a47d-0d282fc5d384" width="200" height="200"> )
 SQL para generar las bases de datos.
 
 ![Sin título](https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/2b471dc4-5b3d-40d3-bdcb-c532e39105da)
