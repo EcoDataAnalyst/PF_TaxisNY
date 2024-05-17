@@ -8,11 +8,17 @@ Somos **E.D.A. EcoData Analyst**, un equipo multidisciplinario formado por cinco
 
 A llenar 
 Miembros del Equipo
+
 [Nombre 1] - [País]: Especialista en análisis de datos y modelado predictivo.
+
 [Nombre 2] - [País]: Experto en visualización de datos y creación de informes interactivos.
+
 [Nombre 3] - [País]: Enfocado en la limpieza y preparación de datos.
+
 [Nombre 4] - [País]: Analista en impacto ambiental y sostenibilidad.
+
 [Nombre 5] - [País]: Encargado de la integración de tecnologías y herramientas de análisis.
+
 
 ### Nuestra Misión
 En E.D.A. EcoData Analyst, creemos que el análisis de datos puede ser una herramienta poderosa para el cambio positivo. Nos dedicamos a proporcionar análisis detallados y basados en datos para abordar desafíos ambientales y económicos, ayudando a las empresas a tomar decisiones informadas y sostenibles.
@@ -35,7 +41,7 @@ Para realizar un análisis preliminar y obtener un marco de referencia sólido, 
 - ???
 Este estudio nos permitirá tomar decisiones bien fundamentadas sobre la inversión y la implementación de vehículos eléctricos en el sector de transporte de pasajeros con automóviles.
 
-## Dataset
+## Datos de estudio
 
 El análisis se basa en un conjunto de datos de taxis de la ciudad de Nueva York, que incluye información detallada sobre viajes, como:
 - Fecha y hora de inicio y fin del viaje.
@@ -54,6 +60,7 @@ El análisis se basa en un conjunto de datos de taxis de la ciudad de Nueva York
 
 ## Herramientas y Tecnologías Utilizadas
 
+- **Google Cloud**: para el almacenamiento.
 - **Python**: Para el procesamiento y análisis de datos.
 - **Pandas y NumPy**: Para la manipulación de datos.
 - **Matplotlib y Seaborn**: Para la visualización de datos.
@@ -84,4 +91,4 @@ Para más información o consultas, puedes contactarme a través de [correo elec
 
 ---
 
-¡Gracias por tu interés en nuestro proyecto de análisis de datos sobre el mercado de transporte de pasajeros!
+¡Gracias por su interés en nuestro proyecto de análisis de datos sobre el mercado de transporte de pasajeros!
