@@ -6,18 +6,18 @@
 # Grupo de Trabajo
 Somos **E.D.A. EcoData Analyst**, un equipo multidisciplinario formado por cinco personas de diversos países de Latinoamérica. Nuestro grupo está compuesto por profesionales apasionados por el análisis de datos y comprometidos con la sostenibilidad ambiental. Nos unimos con el objetivo de utilizar nuestras habilidades y conocimientos en data science para generar soluciones innovadoras y sustentables que puedan contribuir a un futuro más limpio y eficiente.
 
-A llenar 
+ 
 Miembros del Equipo
 
-[Nombre 1] - [País]: Especialista en análisis de datos y modelado predictivo.
+**[Richard Robles]** - Colombia - Proyect manager - Data Engineering 
 
-[Nombre 2] - [País]: Experto en visualización de datos y creación de informes interactivos.
+**[Abraham Gomez]** - Mexico - Data Scientist - Data Engineering
 
-[Nombre 3] - [País]: Enfocado en la limpieza y preparación de datos.
+**[Luis Meza]** - Mexico - Data Analyst
 
-[Nombre 4] - [País]: Analista en impacto ambiental y sostenibilidad.
+**[Martin Molina]** - Argentina - Data Analyst
 
-[Nombre 5] - [País]: Encargado de la integración de tecnologías y herramientas de análisis.
+**[Ivan Salva]** - Argentina - Data Scientist
 
 
 ### Nuestra Misión
