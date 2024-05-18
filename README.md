@@ -1,4 +1,4 @@
-# Análisis de Rentabilidad y Sostenibilidad en el Mercado de Transporte de Pasajeros
+# Análisis de Rentabilidad Económica y Sostenibilidad Hambiental en el Mercado de Transporte de Pasajeros
 
 .../Images/logo.jpg
 
@@ -87,7 +87,7 @@ Basado en los resultados del análisis, se proporcionarán recomendaciones sobre
 
 ## Contacto
 
-Para más información o consultas, puedes contactarme a través de [correo electrónico].
+Para más información o consultas, puedes contactarme a través de ***Eco.Data.Analyst@gmail.com***
 
 ---
 
