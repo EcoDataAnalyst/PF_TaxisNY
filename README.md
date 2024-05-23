@@ -65,7 +65,7 @@ taxi.iniciar_servicio()
 ```
 
 ## Diagrama de googlecloud
-<img src=https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/960407a3-bcaf-4d1f-8c67-52d25eec8031" width="200" height="200">
+<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/960407a3-bcaf-4d1f-8c67-52d25eec8031" width="200" height="200">
 
 ## Contribuir
 Pasos para contribuir al proyecto.
