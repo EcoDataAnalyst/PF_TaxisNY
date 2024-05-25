@@ -14,15 +14,18 @@ def main():
 
     with col1:
         # Content for the first (narrower) column goes here
-        st.write("This is the 20% column. You can add content, widgets, etc.")
+        st.write("Ingrese el inventario de sus vehiculos")
 
         add_input()
 
     with col2:
         # Content for the second (wider) column goes here
-        st.write("This is the 80% column. Use this for main content or visualizations.")
+        st.write("Aca se muestra el resultado de la simulacion de la Huella de carbono")
         # Fill with image placeholder with full width and height
-        st.image("https://picsum.photos/800/600", width=800, height=600)
+        st.image("https://via.placeholder.com/800x400", use_column_width=True, caption="Image Placeholder")
+        
+
+    
 
 if __name__ == "__main__":
     main()
