@@ -10,7 +10,7 @@ Nuestro compromiso es ayudarle a ver el mejor panorama ecologico para complir su
 # Taxis Ecológicos NYC
 
 <center>
-    <img src="Images/taxi.jpeg" alt="Descripción de la imagen" width="50%">
+    <img src="Images/taxi.jpeg" alt="Descripción de la imagen" style="width:100%; height:45px;">
 </center>
 
 ## Descripción
