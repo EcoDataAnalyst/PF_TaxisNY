@@ -32,11 +32,10 @@ Instrucciones para configurar el proyecto localmente.
 
 <img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/2b471dc4-5b3d-40d3-bdcb-c532e39105da" width="50" height="50">Google cloud para almacenar las bases de datos
 
-<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/e57db05e-b1d1-45bc-9f7b-2011159bd9a2" width="50" height="50">
-Power bi para mostrar las relaciones entre los datos.
+<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/e57db05e-b1d1-45bc-9f7b-2011159bd9a2" width="50" height="50"> Power bi para mostrar las relaciones entre los datos.
 
-<img src= "(https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/30abb55b-defd-4200-830f-410f36091b2b)" width="50" height="50">
-streamlit para mostrar el analisis de datos.
+
+<img src= "(https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/25a2220f-abf5-4340-8cd5-b2512d63f3b6)" width="50" height="50"> streamlit para mostrar el analisis de datos.
 
 ## Analisis Exploratorio de Datos
 
