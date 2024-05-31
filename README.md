@@ -10,7 +10,7 @@ Nuestro compromiso es ayudarle a ver el mejor panorama ecologico para complir su
 # Taxis Ecológicos NYC
 
 <center>
-    <img src="Images/taxi.jpeg" alt="Descripción de la imagen" style="width:100%; height:35vh;">
+    <img src="Images/taxi.jpeg" alt="Descripción de la imagen" style="width:100%; height:20%;">
 </center>
 
 ## Descripción
@@ -20,9 +20,11 @@ Este proyecto busca innovar en el transporte urbano de Nueva York a través de t
 el Cliente: Una empresa de servicios de transporte de pasajeros.
 Objetivo: invertir en el transporte de pasajeros con automóviles, implementando  vehículos eléctricos, en Nueva York
 
-## Instalación
+### Objetivo General
 
-Instrucciones para configurar el proyecto localmente.
+El objetivo general de este proyecto es analizar la relación entre el servicio de taxi y la calidad del aire en la ciudad de Nueva York, con el fin de **evaluar la viabilidad de incorporar vehículos eléctricos** a la flota de una empresa de transporte de pasajeros. Por medio de una simulación dado el inventario de autos y la bitácora de viajes de la empresa.
+
+
 
 ## Tecnologías
 
@@ -46,13 +48,17 @@ Power bi para mostrar las relaciones entre los datos.
 
 En la carpeta Notebooks puede revisar los EDA [Datasets](https://github.com/EcoDataAnalyst/PF_TaxisNY/tree/main/Data) de la carpeta de datasets [Notebooks](https://github.com/EcoDataAnalyst/PF_TaxisNY/tree/main/Notebooks/EDAS)
 
-## KEY PERFORMANCE INDICATOR:
+## KEY PERFORMANCE INDICATOR KPI:
 
 Se analiza mediante los KPI de los datos actuales de los vehiculos de taxis y la contaminación de Nueva York, para entender el desarrollo de la movilidad en vehiculos particulares.
 
-1. Reducción del %  la huella de carbono mensual dada una inversión inicial de Capital para remplazo parcial o total de la flota de Vehículos de la compañía.
-2. Aumentar mensualmente los ingresos por concepto de viajes mensuales.
-3. Tasa de retorno de inversión anualizado por el remplazo total o parcial de la flota de taxis
+| KPI                                                                                             | Calculo                                                | Objetivo                      | Periodo |
+|-------------------------------------------------------------------------------------------------|--------------------------------------------------------|-------------------------------|---------|
+| Reducción del % la huella de carbono mensual dada una inversión inicial de Capital para reemplazo parcial o total de la flota de Vehículos de la compañía. | Suma de beneficios fiscales y de performance sobre Costo de inversion vehículo | Mejorar KPI del mes anterior | Mensual |
+| Aumentar mensualmente los ingresos por concepto de viajes.                                      | Suma de ingresos cobrados por viajes totales           | Mejorar KPI del mes anterior  | Mensual |
+| Tasa de retorno de inversión anualizado por el reemplazo total o parcial de la flota de taxis   | Margen de utilidad por vehículo sobre costo de adquisición | Mejorar KPI del año anterior  | Anual   |
+| Monitorear los porcentajes de utilidad por unidad                                               | Margen de utilidad unitario actual sobre periodo anterior | Mejorar KPI del mes anterior  | Mensual |
+
 
 ```bash
 git clone https://github.com/usuario/taxis-ecologicos-nyc.git

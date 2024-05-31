@@ -1,0 +1,13 @@
+apache-airflow
+google-cloud-storage
+google-cloud-bigquery
+pyyaml
+apache-airflow-providers-google
+pandas
+numpy
+requests
+openmeteo_requests
+bs4
+retry-requests
+requests-cache
+

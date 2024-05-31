@@ -1,0 +1,5 @@
+gcs_bucket: your-gcs-bucket-name
+gcs_folder: your-gcs-folder-name
+data_folder: Data
+bigquery_project: your-bigquery-project-id
+bigquery_dataset: your-bigquery-dataset-name
