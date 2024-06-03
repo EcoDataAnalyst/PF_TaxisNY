@@ -1,3 +1,4 @@
+![ETL_Pipeline.jpg](assets/ETL_Pipeline.jpg)
 <p align="center">
 <img src="Images/logo.jpg" alt="Logo" width="100" height="100">
 
@@ -23,8 +24,6 @@ Objetivo: invertir en el transporte de pasajeros con automóviles, implementando
 ### Objetivo General
 
 El objetivo general de este proyecto es analizar la relación entre el servicio de taxi y la calidad del aire en la ciudad de Nueva York, con el fin de **evaluar la viabilidad de incorporar vehículos eléctricos** a la flota de una empresa de transporte de pasajeros. Por medio de una simulación dado el inventario de autos y la bitácora de viajes de la empresa.
-
-
 
 ## Tecnologías
 
@@ -52,13 +51,13 @@ En la carpeta Notebooks puede revisar los EDA [Datasets](https://github.com/EcoD
 
 Se analiza mediante los KPI de los datos actuales de los vehiculos de taxis y la contaminación de Nueva York, para entender el desarrollo de la movilidad en vehiculos particulares.
 
-| KPI                                                                                             | Calculo                                                | Objetivo                      | Periodo |
-|-------------------------------------------------------------------------------------------------|--------------------------------------------------------|-------------------------------|---------|
-| Reducción del % la huella de carbono mensual dada una inversión inicial de Capital para reemplazo parcial o total de la flota de Vehículos de la compañía. | Suma de beneficios fiscales y de performance sobre Costo de inversion vehículo | Mejorar KPI del mes anterior | Mensual |
-| Aumentar mensualmente los ingresos por concepto de viajes.                                      | Suma de ingresos cobrados por viajes totales           | Mejorar KPI del mes anterior  | Mensual |
-| Tasa de retorno de inversión anualizado por el reemplazo total o parcial de la flota de taxis   | Margen de utilidad por vehículo sobre costo de adquisición | Mejorar KPI del año anterior  | Anual   |
-| Monitorear los porcentajes de utilidad por unidad                                               | Margen de utilidad unitario actual sobre periodo anterior | Mejorar KPI del mes anterior  | Mensual |
 
+| KPI                                                                                                                                                             | Calculo                                                                         | Objetivo                      | Periodo |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------- | ------- |
+| Reducción del % la huella de carbono mensual dada una inversión inicial de Capital para reemplazo parcial o total de la flota de Vehículos de la compañía. | Suma de beneficios fiscales y de performance sobre Costo de inversion vehículo | Mejorar KPI del mes anterior  | Mensual |
+| Aumentar mensualmente los ingresos por concepto de viajes.                                                                                                      | Suma de ingresos cobrados por viajes totales                                    | Mejorar KPI del mes anterior  | Mensual |
+| Tasa de retorno de inversión anualizado por el reemplazo total o parcial de la flota de taxis                                                                  | Margen de utilidad por vehículo sobre costo de adquisición                    | Mejorar KPI del año anterior | Anual   |
+| Monitorear los porcentajes de utilidad por unidad                                                                                                               | Margen de utilidad unitario actual sobre periodo anterior                       | Mejorar KPI del mes anterior  | Mensual |
 
 ```bash
 git clone https://github.com/usuario/taxis-ecologicos-nyc.git
@@ -76,20 +75,11 @@ taxi = taxi_ecologico.NuevoTaxi()
 taxi.iniciar_servicio()
 ```
 
-## Diagrama de googlecloud
+## Arquitectura de la aplicación
 
-<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/assets/137646190/0ed40886-67eb-409a-93a3-a17803e4cc0b" width="200" height="200">
+Aca os encontramos una descripción de la arquitectura de la aplicación.
 
-## Contribuir
-
-Pasos para contribuir al proyecto.
-
-1. Fork el repositorio.
-2. Crea tu rama de características (`git checkout -b feature/fooBar`).
-3. Haz tus cambios.
-4. Commit tus cambios (`git commit -am 'Añadir fooBar'`).
-5. Push a la rama (`git push origin feature/fooBar`).
-6. Crea un nuevo Pull Request.
+<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/images/![ETL_Pipeline.jpg](Images%2FETL_Pipeline.jpg)" width="200" height="200">
 
 ## Licencia
 
