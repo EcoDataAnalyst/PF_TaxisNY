@@ -79,7 +79,7 @@ taxi.iniciar_servicio()
 
 Aca os encontramos una descripción de la arquitectura de la aplicación.
 
-<img src= "https://github.com/EcoDataAnalyst/PF_TaxisNY/images/ETL_Pipeline.jpg" width="200" height="200">
+![](https://github.com/EcoDataAnalyst/PF_TaxisNY/blob/ETL-pipeline-rrobles/Images/ETL_Pipeline.jpg)
 
 ## Licencia
 
