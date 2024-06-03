@@ -10,9 +10,9 @@ Nuestro compromiso es ayudarle a ver el mejor panorama ecologico para complir su
 
 # Taxis Ecológicos NYC
 
-<center>
-    <img src="Images/taxi.jpeg" alt="Descripción de la imagen" style="width:100%; height:20%;">
-</center>
+
+![https://github.com/EcoDataAnalyst/PF_TaxisNY/blob/ETL-pipeline-rrobles/Images/taxi.jpeg](Images/taxi.jpeg)
+
 
 ## Descripción
 
