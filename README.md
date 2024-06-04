@@ -34,7 +34,7 @@ En E.D.A. EcoData Analyst, creemos que el análisis de datos puede ser una herra
 
 ## Descripción del Proyecto
 
-Este proyecto tiene como objetivo analizar la viabilidad y sostenibilidad de una empresa de servicios de transporte de pasajeros que actualmente opera en el sector de micros de media y larga distancia, y que está interesada en invertir en el sector de transporte de pasajeros con automóviles. Con una visión de futuro menos contaminado y alineada con las tendencias actuales del mercado, la empresa desea corroborar la relación entre estos medios de transporte y la calidad del aire, así como la contaminación sonora, para evaluar la posibilidad de implementar vehículos eléctricos en su flota, ya sea total o parcialmente.
+Este proyecto tiene como objetivo analizar la viabilidad y sostenibilidad de una empresa de servicios de transporte de pasajeros que actualmente opera en el sector de micros, de media y larga distancia, y que está interesada en invertir en el sector de transporte de pasajeros con automóviles. Con una visión de futuro menos contaminado y alineada con las tendencias actuales del mercado, la empresa desea corroborar la relación entre estos medios de transporte y la calidad del aire, así como la contaminación sonora, para evaluar la posibilidad de implementar vehículos eléctricos en su flota, ya sea total o parcialmente.
 
 ## Objetivos
 
@@ -44,11 +44,10 @@ Este proyecto tiene como objetivo analizar la viabilidad y sostenibilidad de una
 
 ## Contexto
 
-Para realizar un análisis preliminar y obtener un marco de referencia sólido, se decidió estudiar en la ciudad de Nueva York.
+Para realizar un análisis preliminar y obtener un marco de referencia sólido, se decidió estudiar en la ciudad de Nueva York:
 - El movimiento de los taxis en la ciudad.
-- La infraestructura de cargas y reabastecimientos y su distribucion
-- ???
-Este estudio nos permitirá tomar decisiones bien fundamentadas sobre la inversión y la implementación de vehículos eléctricos en el sector de transporte de pasajeros con automóviles.
+- La infraestructura de cargas y reabastecimientos y su distribución
+- Este estudio nos permitirá tomar decisiones bien fundamentadas sobre la inversión y la implementación de vehículos eléctricos en el sector de transporte de pasajeros con automóviles.
 
 
 ## Datos de estudio
