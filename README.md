@@ -86,13 +86,17 @@ Google cloud para almacenar las bases de datos
 
 **Power BI**: Para la creación de informes interactivos y visualización avanzada de resultados.
 
-## KEY PERFORMANCE INDICATOR:
+## KEY PERFORMANCE INDICATOR KPI:
 
 Se analiza mediante los KPI de los datos actuales de los vehiculos de taxis y la contaminación de Nueva York, para entender el desarrollo de la movilidad en vehiculos particulares.
 
-1. Reducción del 5%  la huella de carbono mensual dada una inversión inicial de Capital para remplazo parcial o total de la flota de Vehículos de la compañía.
-2. Aumentar mensualmente 3% los ingresos por concepto de viajes mensuales.
-3. Tasa de retorno de inversión anualizado por el remplazo total o parcial de la flota de taxis
+
+| KPI                                                                                                                                                             | Calculo                                                                         | Objetivo                      | Periodo |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------- | ------- |
+| Reducción del % la huella de carbono mensual dada una inversión inicial de Capital para reemplazo parcial o total de la flota de Vehículos de la compañía. | Suma de beneficios fiscales y de performance sobre Costo de inversion vehículo | Mejorar KPI del mes anterior  | Mensual |
+| Aumentar mensualmente los ingresos por concepto de viajes.                                                                                                      | Suma de ingresos cobrados por viajes totales                                    | Mejorar KPI del mes anterior  | Mensual |
+| Tasa de retorno de inversión anualizado por el reemplazo total o parcial de la flota de taxis                                                                  | Margen de utilidad por vehículo sobre costo de adquisición                    | Mejorar KPI del año anterior | Anual   |
+| Monitorear los porcentajes de utilidad por unidad                                                                                                               | Margen de utilidad unitario actual sobre periodo anterior                       | Mejorar KPI del mes anterior  | Mensual |
 
 
 ## Resultados
