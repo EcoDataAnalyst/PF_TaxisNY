@@ -1,7 +1,7 @@
 # **Análisis de Rentabilidad Económica y Sostenibilidad Hambiental en el Mercado de Transporte de Pasajeros**
 
 <p align="center">
-<img src="Images/logo.jpg" alt="Logo" width="300" height="300">
+<img src="Images/logo.jpg" alt="Logo" width="100" height="100">
 
 </p>
 
@@ -22,7 +22,7 @@ Nuestro grupo está compuesto por profesionales apasionados por el análisis de 
 **[Luis Meza]** - Mexico - Data Analyst
 [linkedin](https://www.linkedin.com/in/luis-angel-meza-caballero-800636264/)
 
-**[Martin Molina]** - Argentina - Data Analyst 
+**[Martin Molina]** - Argentina - Data Analyst
 [linkedin](www.linkedin.com/in/martin-molina-3b5131b7/)
 
 **[Ivan Salva]** - Argentina - Data Scientist
