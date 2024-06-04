@@ -1,7 +1,7 @@
 # **Análisis de Rentabilidad Económica y Sostenibilidad Hambiental en el Mercado de Transporte de Pasajeros**
 
 <p align="center">
-<img src="Images/logo.jpg" alt="Logo" width="100" height="100">
+<img src="Images/logo.jpg" alt="Logo" width="300" height="300">
 
 </p>
 
