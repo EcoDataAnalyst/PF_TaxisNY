@@ -98,6 +98,11 @@ Se analiza mediante los KPI de los datos actuales de los vehiculos de taxis y la
 | Tasa de retorno de inversión anualizado por el reemplazo total o parcial de la flota de taxis                                                                  | Margen de utilidad por vehículo sobre costo de adquisición                    | Mejorar KPI del año anterior | Anual   |
 | Monitorear los porcentajes de utilidad por unidad                                                                                                               | Margen de utilidad unitario actual sobre periodo anterior                       | Mejorar KPI del mes anterior  | Mensual |
 
+## Arquitectura de la aplicación
+
+Acá encontramos una descripción de la arquitectura de la aplicación.
+
+![](https://github.com/EcoDataAnalyst/PF_TaxisNY/blob/ETL-pipeline-rrobles/Images/ETL_Pipeline.jpg)
 
 ## Resultados
 
