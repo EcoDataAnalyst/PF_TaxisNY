@@ -2,3 +2,5 @@ streamlit
 plotly-express
 pandas
 numpy
+pyarrow
+datetime
