@@ -10,7 +10,12 @@
 Somos **E.D.A. EcoData Analyst**, un equipo multidisciplinario formado por cinco personas de diversos países de Latinoamérica.
 Nuestro grupo está compuesto por profesionales apasionados por el análisis de datos y comprometidos con la sostenibilidad ambiental. Nos unimos con el objetivo de utilizar nuestras habilidades y conocimientos en data science para generar soluciones innovadoras y sustentables que puedan contribuir a un futuro más limpio y eficiente.
 
- 
+<div align="center">
+  <a href="https://youtu.be/T610j0k7-BM">
+    <img src="https://img.youtube.com/vi/T610j0k7-BM/0.jpg" alt="Video de YouTube" />
+  </a>
+</div>
+
 ### Miembros del Equipo
 
 **[Richard Robles]** - Colombia - Proyect manager - Data Engineering
@@ -59,7 +64,8 @@ El análisis se basa en un conjunto de datos de taxis de la ciudad de Nueva York
 - Tarifas y métodos de pago.
 - Tipos de vehículo utilizado y eficiencia energética.
 
-## Metodología, vida y calidad de los Datos
+## **Alcance del proyecto**
+Metodología, vida y calidad de los Datos
 
 1. **Recolección y preparación de datos**: Se recopilaron los datos de viajes de taxis de los ultimos 3 meses y se limpiaron para asegurar su calidad y consistencia. Así mismo se redujo al minimo la cantidad de datos usados pero sin perder nada de la representatividad de los mismos para generar un ahorro extra de dineroa a la empresa en calculos computacionales. Se aplicaron las mejores técnicas depuración de datos (Eliminación de Datos nulos, duplicados, outliers, erroneos, etc) a todas las fuentes de información.
 2. **Análisis exploratorio de datos**: los Datos obtenidos tras la limpieza y reducción resultaron de una excelente calidad, y con esto se realizó un análisis para entender la distribución y características de los viajes, vehiculos y Viabilidad tanto Económica como Ecológica del proyecte.
