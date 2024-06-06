@@ -65,7 +65,7 @@ def interpolacion(Modelo:str, Año:int, electrico:bool,dfs:list,hour_0,hour_f):
 #cargar el dataset__________________________________________________________________________________________________
 dfs = []
 for i in range(1,2):
-    df = pd.read_parquet(f'Data_sim/{i}.parquet')
+    df = pd.read_parquet(f'{i}.parquet')
     dfs.append(df)
 
 electric = pd.read_parquet('Data_sim/df_final_electrico01.parquet')
