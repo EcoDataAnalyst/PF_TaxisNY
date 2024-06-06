@@ -8,7 +8,7 @@ st.set_page_config(page_title=  "dashboard",
                      layout= 'wide')
 
 #cargar el dataset
-df = pd.read_parquet(r'C:\Users\Luis Meza\Desktop\henry\P2_taxis\rawdatacompañeros\VgasElect.parquet')
+df = pd.read_parquet(r'.\rawdatacompañeros\VgasElect.parquet')
 
 #deploy el dataset
 
