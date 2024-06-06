@@ -1,11 +1,11 @@
 # **Análisis de Rentabilidad Económica y Sostenibilidad Ambiental en el Mercado de Transporte de Pasajeros**
 
 <p align="center">
-<img src="Images/logo.jpg" alt="Logo" width="300" height="300">
+<img src="Images/logo.jpg" alt="Logo" width="400" height="400">
 
 </p>
 
-## E.D.A. EcoData Analyst
+# **E.D.A. EcoData Analyst**
 ## Grupo de Trabajo
 Somos **E.D.A. EcoData Analyst**, un equipo multidisciplinario formado por cinco personas de diversos países de Latinoamérica.
 Nuestro grupo está compuesto por profesionales apasionados por el análisis de datos y comprometidos con la sostenibilidad ambiental. Nos unimos con el objetivo de utilizar nuestras habilidades y conocimientos en data science para generar soluciones innovadoras y sustentables que puedan contribuir a un futuro más limpio y eficiente.
@@ -61,11 +61,43 @@ El análisis se basa en un conjunto de datos de taxis de la ciudad de Nueva York
 
 ## Metodología, vida y calidad de los Datos
 
-1. **Recolección y preparación de datos**: Se recopilaron los datos de viajes de taxis de los ultimos 3 meses y se limpiaron para asegurar su calidad y consistencia. Así mismo se redujo al minimo la cantidad de datos usados pero sin perder nada de la representatividad de los mismos para generar un ahorro extra de dineroa a la empresa en calculos computacionales.
-2. **Análisis exploratorio de datos**: los Datos obtenidos tras la limpieza y reducción resultaron de una excelente calidad, y con esto se realizó un análisis inicial para entender la distribución y características de los viajes.
+1. **Recolección y preparación de datos**: Se recopilaron los datos de viajes de taxis de los ultimos 3 meses y se limpiaron para asegurar su calidad y consistencia. Así mismo se redujo al minimo la cantidad de datos usados pero sin perder nada de la representatividad de los mismos para generar un ahorro extra de dineroa a la empresa en calculos computacionales. Se aplicaron las mejores técnicas depuración de datos (Eliminación de Datos nulos, duplicados, outliers, erroneos, etc) a todas las fuentes de información.
+2. **Análisis exploratorio de datos**: los Datos obtenidos tras la limpieza y reducción resultaron de una excelente calidad, y con esto se realizó un análisis para entender la distribución y características de los viajes, vehiculos y Viabilidad tanto Económica como Ecológica del proyecte.
 3. **Modelado y análisis de rentabilidad**: Se desarrollaron modelos para evaluar la rentabilidad del transporte de pasajeros con automóviles, considerando diferentes escenarios.
 4. **Análisis de impacto ambiental**: Se analizaron los datos de calidad del aire y contaminación sonora en relación con el transporte de taxis.
 5. **Simulación de escenarios con vehículos eléctricos**: Se evaluó la viabilidad y beneficios de reemplazar parte o toda la flota por vehículos eléctricos.
+
+</p>
+<p align="center">
+<img src="Images/EntidadRelacion.jpg" alt="DER" width="704" height="516">
+
+</p>
+
+## Descripción del Diagrama de Entidad-Relación del Proyecto de Implementación de Vehículos Eléctricos
+
+Este diagrama de entidad-relación (ERD) representa los componentes y sus interrelaciones en el análisis de la implementación de vehículos eléctricos en los cinco boroughs de Nueva York. A continuación se describen las entidades y sus relaciones:
+
+1. **Zona de Taxis**:
+   - **Atributos**: Borough, LocationID, service_zone, Zone.
+   - **Relaciones**: Se conecta con "Viajes Taxi Amarillo" para identificar la ubicación de los viajes.
+
+2. **Cargadores**:
+   - **Atributos**: Boroughs, EV Connector Types, EV Network, EV Pricing, Facility Type, Latitude, Longitude, Station Name.
+   - **Relaciones**: Se vincula con "Zona de taxis" para ubicar las estaciones de carga dentro de las zonas de servicio de taxis.
+
+3. **Viajes Taxi Amarillo**:
+   - **Atributos**: Bajada, cant_pasajeros, distancia_viaje, Duracion, extra, Extra_aeropuerto, Hora_subida, Mes, peajes.
+   - **Relaciones**: Relacionado con "Zona de Taxis" para detallar los viajes realizados en cada zona.
+
+4. **Coeficiente**:
+   - **Atributos**: City_kWh_100km, City_Le_100km, CO2_emissions_g_km, CO2_rating, indice_coeficiente, Make, Model, Model_year, Motor_kW.
+   - **Relaciones**: Vinculado a "Autos Gasolina" para comparar coeficientes de eficiencia y emisiones.
+
+5. **Autos Gasolina**:
+   - **Atributos**: Cap_tanque_comb, co2, co2TailpipeGpm, Combustible, Costo_gasolina_galon, Costo_mant_anual, eng_dscr, Fabrica.
+   - **Relaciones**: Conectado con "Coeficiente" para evaluar el rendimiento y las emisiones de los autos de combustión interna en comparación con los eléctricos.
+
+Este diagrama facilita el análisis de datos sobre la viabilidad de los vehículos eléctricos, permitiendo identificar patrones y realizar comparaciones entre diferentes tipos de vehículos y sus impactos en el entorno urbano.
 
 ## Herramientas y Tecnologías Utilizadas
 
@@ -92,16 +124,38 @@ Se analiza mediante los KPI de los datos actuales de los vehiculos de taxis y la
 
 | KPI                                                                                                                                                             | Calculo                                                                         | Objetivo                      | Periodo |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------- | ------- |
-| Reducción del 5% la huella de carbono mensual dada una inversión inicial de Capital para reemplazo parcial o total de la flota de Vehículos de la compañía. | Suma de beneficios fiscales y de performance sobre Costo de inversion vehículo | Mejorar KPI del mes anterior  | Mensual |
-| Aumentar mensualmente 10% los ingresos por concepto de viajes.                                                                                                      | Suma de ingresos cobrados por viajes totales                                    | Mejorar KPI del mes anterior  | Mensual |
+| Reducción del 3% la huella de carbono mensual dada una inversión inicial de Capital para reemplazo parcial o total de la flota de Vehículos de la compañía. | Suma de beneficios fiscales y de performance sobre Costo de inversion vehículo | Mejorar KPI del mes anterior  | Mensual |
+| Aumentar mensualmente 4% los ingresos por concepto de viajes.                                                                                                      | Suma de ingresos cobrados por viajes totales                                    | Mejorar KPI del mes anterior  | Mensual |
 | Tasa de retorno de inversión anualizado por el reemplazo total o parcial de la flota de taxis                                                                  | Margen de utilidad por vehículo sobre costo de adquisición                    | Mejorar KPI del año anterior | Anual   |
-| Mejorar en 10% la utilidad por unidad                                                                                                               | Margen de utilidad unitario actual sobre periodo anterior                       | Mejorar KPI del mes anterior  | Mensual |
+| Mejorar en 5% la utilidad por unidad                                                                                                               | Margen de utilidad unitario actual sobre periodo anterior                       | Mejorar KPI del mes anterior  | Mensual |
 
 ## Arquitectura de la aplicación
 
 Acá encontramos una descripción de la arquitectura de la aplicación.
 
 ![](https://github.com/EcoDataAnalyst/PF_TaxisNY/blob/ETL-pipeline-rrobles/Images/ETL_Pipeline.jpg)
+
+Este diagrama ilustra el flujo de datos desde la recopilación hasta la visualización en Power BI para el proyecto de implementación de vehículos eléctricos en los cinco boroughs de Nueva York. A continuación se describe el proceso:
+
+1. **Almacenamiento de Datos**:
+   - **Fuentes**: Los datos se recopilan en formatos CSV y Parquet.
+   - **Cloud Storage**: Los archivos de datos se almacenan en la nube, permitiendo un acceso centralizado y seguro.
+
+2. **ETL (Extracción, Transformación y Carga)**:
+   - **Python y Cloud Composer**: Se utilizan scripts de Python y Cloud Composer para realizar la extracción, transformación y carga de datos. Este proceso asegura que los datos sean limpiados y estructurados adecuadamente para el análisis.
+
+3. **Almacenamiento de Datos Transformados**:
+   - **BigQuery**: Los datos transformados se cargan en BigQuery, una plataforma de almacenamiento y análisis de datos escalable y de alto rendimiento.
+
+4. **Modelo de Machine Learning**:
+   - **Entrenamiento y Predicción**: Los datos en BigQuery se utilizan para entrenar un modelo de Machine Learning que genera predicciones y análisis avanzados.
+   - **Streamlit**: El modelo de ML se integra con una interfaz de usuario desarrollada en Streamlit, proporcionando una visualización interactiva y fácil de usar para los usuarios finales.
+
+5. **Visualización y Análisis**:
+   - **Power BI**: Los datos y resultados del modelo de ML se visualizan en Power BI, permitiendo un análisis detallado y la generación de informes interactivos para la toma de decisiones.
+
+Este flujo de datos asegura una gestión eficiente y un análisis profundo de la viabilidad y sostenibilidad de la implementación de vehículos eléctricos en la flota de transporte de Nueva York.
+
 
 ## Resultados
 
