@@ -10,11 +10,12 @@
 Somos **E.D.A. EcoData Analyst**, un equipo multidisciplinario formado por cinco personas de diversos países de Latinoamérica.
 Nuestro grupo está compuesto por profesionales apasionados por el análisis de datos y comprometidos con la sostenibilidad ambiental. Nos unimos con el objetivo de utilizar nuestras habilidades y conocimientos en data science para generar soluciones innovadoras y sustentables que puedan contribuir a un futuro más limpio y eficiente.
 
-<div align="center">
-  <a href="https://youtu.be/T610j0k7-BM">
+<<div align="center">
+  <a href="https://youtu.be/T610j0k7-BM" target="_blank">
     <img src="https://img.youtube.com/vi/T610j0k7-BM/0.jpg" alt="Video de YouTube" />
   </a>
 </div>
+
 
 ### Miembros del Equipo
 
