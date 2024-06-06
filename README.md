@@ -67,13 +67,14 @@ El análisis se basa en un conjunto de datos de taxis de la ciudad de Nueva York
 4. **Análisis de impacto ambiental**: Se analizaron los datos de calidad del aire y contaminación sonora en relación con el transporte de taxis.
 5. **Simulación de escenarios con vehículos eléctricos**: Se evaluó la viabilidad y beneficios de reemplazar parte o toda la flota por vehículos eléctricos.
 
+
+## Descripción del Diagrama de Entidad-Relación del Proyecto de Implementación de Vehículos Eléctricos
+
 </p>
 <p align="center">
 <img src="Images/EntidadRelacion.jpg" alt="DER" width="704" height="516">
 
 </p>
-
-## Descripción del Diagrama de Entidad-Relación del Proyecto de Implementación de Vehículos Eléctricos
 
 Este diagrama de entidad-relación (ERD) representa los componentes y sus interrelaciones en el análisis de la implementación de vehículos eléctricos en los cinco boroughs de Nueva York. A continuación se describen las entidades y sus relaciones:
 
@@ -166,10 +167,22 @@ Los resultados del análisis proporcionarán información valiosa sobre:
 
 ## Conclusiones y Recomendaciones
 
-Basado en los resultados del análisis, se proporcionarán recomendaciones sobre:
-- La viabilidad económica de la inversión.
-- Estrategias para minimizar el impacto ambiental.
-- La implementación de vehículos eléctricos en la flota de transporte de pasajeros.
+Para el análisis de la viabilidad y sostenibilidad de una empresa de servicios de transporte de pasajeros en Nueva York, hemos evaluado distintos aspectos relacionados con la implementación de vehículos eléctricos en su flota. A continuación, presentamos las principales conclusiones basadas en los datos analizados:
+
+1. **Impacto Ambiental Positivo**:	
+   - **Reducción de Emisiones**: Los vehículos eléctricos (VE) presentan una considerable reducción en las emisiones de gases contaminantes en comparación con los vehículos de combustión interna. Esto contribuye significativamente a mejorar la calidad del aire, especialmente en áreas urbanas densamente pobladas como Manhattan.
+   - **Disminución de la Contaminación Sonora**: Los VE son mucho más silenciosos, lo que reduce la contaminación sonora en las ciudades, mejorando la calidad de vida de los residentes.
+
+2. **Viabilidad Económica**:
+   - **Costos Operativos Reducidos**: Los vehículos eléctricos resultan ser mucho más económicos de operar. Los costos de mantenimiento y de energía (electricidad) son inferiores a los de los vehículos de combustión interna, lo cual se traduce en ahorro a largo plazo para la empresa.
+   - **Infraestructura de Carga Adecuada**: La infraestructura de cargadores para vehículos eléctricos en Nueva York, especialmente en Manhattan y sus alrededores, es robusta y en crecimiento, lo que facilita la operación eficiente de una flota de VE.
+
+3. **Modelos Recomendados para la Inversión**:
+   - **Tesla Model Y**: Destacado por su autonomía, eficiencia y amplia red de supercargadores, el Tesla "Model Y" se presenta como una opción altamente viable para la flota de vehículos eléctricos de la empresa.
+   - **IONIQ 6 Long Range**: Este modelo es reconocido por su excelente rendimiento en términos de autonomía y economía, posicionándose como otra opción recomendada para la inversión.
+
+En resumen, la implementación de vehículos eléctricos en la flota de la empresa no solo es viable y sostenible, sino que también ofrece beneficios económicos y ambientales. Estos factores alinean a la empresa con las tendencias actuales del mercado hacia un futuro menos contaminado y más eficiente en términos energéticos.
+
 
 ## Contacto
 
