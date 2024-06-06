@@ -3,6 +3,7 @@ import streamlit as st
 import numpy as np  
 # import plotly_express as px
 from datetime import timedelta
+import pyarrow
 
 #crear pagina
 st.set_page_config(page_title=  "Modelo de simulación",
