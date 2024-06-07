@@ -4,3 +4,4 @@ pandas
 numpy
 pyarrow
 datetime
+fastparquet
