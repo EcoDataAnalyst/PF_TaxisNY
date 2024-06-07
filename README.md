@@ -7,6 +7,7 @@
 
 # **E.D.A. EcoData Analyst**
 ## Grupo de Trabajo
+
 Somos **E.D.A. EcoData Analyst**, un equipo multidisciplinario formado por cinco personas de diversos países de Latinoamérica.
 Nuestro grupo está compuesto por profesionales apasionados por el análisis de datos y comprometidos con la sostenibilidad ambiental. Nos unimos con el objetivo de utilizar nuestras habilidades y conocimientos en data science para generar soluciones innovadoras y sustentables que puedan contribuir a un futuro más limpio y eficiente.
 
@@ -48,8 +49,8 @@ Nuestro grupo está compuesto por profesionales apasionados por el análisis de 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ivan-salva-57a98630/) - Data Scientist
 
-
 ## Nuestra Misión
+
 En E.D.A. EcoData Analyst, creemos que el análisis de datos puede ser una herramienta poderosa para el cambio positivo. Nos dedicamos a proporcionar análisis detallados y basados en datos para abordar desafíos ambientales y económicos, ayudando a las empresas a tomar decisiones informadas y sostenibles.
 
 ## Descripción del Proyecto
@@ -65,14 +66,15 @@ Este proyecto tiene como objetivo analizar la viabilidad y sostenibilidad de una
 ## Contexto
 
 Para realizar un análisis preliminar y obtener un marco de referencia sólido, se decidió estudiar en la ciudad de Nueva York:
+
 - El movimiento de los taxis en la ciudad.
 - La infraestructura de cargas y reabastecimientos y su distribución
 - Este estudio nos permitirá tomar decisiones bien fundamentadas sobre la inversión y la implementación de vehículos eléctricos en el sector de transporte de pasajeros con automóviles.
 
-
 ## Datos de estudio
 
 El análisis se basa en un conjunto de datos de taxis de la ciudad de Nueva York, que incluye información detallada sobre viajes, como:
+
 - Fecha y hora de inicio y fin del viaje.
 - Ubicación de recogida y destino.
 - Distancia y duración del viaje.
@@ -143,19 +145,90 @@ Google cloud para almacenar las bases de datos
 
 Se analiza mediante los KPI de los datos actuales de los vehiculos de taxis y la contaminación de Nueva York, para entender el desarrollo de la movilidad en vehiculos particulares.
 
-
-| KPI                                                                                                                                                             | Calculo                                                                         | Objetivo                      | Periodo |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------- | ------- |
-| Reducción del 3% la huella de carbono mensual dada una inversión inicial de Capital para reemplazo parcial o total de la flota de Vehículos de la compañía. | Suma de beneficios fiscales y de performance sobre Costo de inversion vehículo | Mejorar KPI del mes anterior  | Mensual |
-| Aumentar mensualmente 4% los ingresos por concepto de viajes.                                                                                                      | Suma de ingresos cobrados por viajes totales                                    | Mejorar KPI del mes anterior  | Mensual |
-| Tasa de retorno de inversión anualizado por el reemplazo total o parcial de la flota de taxis                                                                  | Margen de utilidad por vehículo sobre costo de adquisición                    | Mejorar KPI del año anterior | Anual   |
-| Mejorar en 5% la utilidad por unidad                                                                                                               | Margen de utilidad unitario actual sobre periodo anterior                       | Mejorar KPI del mes anterior  | Mensual |
+| KPI                                                                                                                                                         | Calculo                                                                        | Objetivo                     | Periodo |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------- | ------- |
+| Reducción del 3% la huella de carbono mensual dada una inversión inicial de Capital para reemplazo parcial o total de la flota de Vehículos de la compañía. | Suma de beneficios fiscales y de performance sobre Costo de inversion vehículo | Mejorar KPI del mes anterior | Mensual |
+| Aumentar mensualmente 4% los ingresos por concepto de viajes.                                                                                              | Suma de ingresos cobrados por viajes totales                                   | Mejorar KPI del mes anterior | Mensual |
+| Tasa de retorno de inversión anualizado por el reemplazo total o parcial de la flota de taxis                                                               | Margen de utilidad por vehículo sobre costo de adquisición                     | Mejorar KPI del año anterior | Anual   |
+| Mejorar en 5% la utilidad por unidad                                                                                                                       | Margen de utilidad unitario actual sobre periodo anterior                      | Mejorar KPI del mes anterior | Mensual |
 
 ## Arquitectura de la aplicación
 
 Acá encontramos una descripción de la arquitectura de la aplicación.
 
 ![](https://github.com/EcoDataAnalyst/PF_TaxisNY/blob/ETL-pipeline-rrobles/Images/ETL_Pipeline.jpg)
+
+## ETL Pipeline
+
+Structure
+
+- `Data/`: Directory containing the data files.
+- `dags/`: Directory containing the Airflow DAG for the ETL pipeline.
+- `scripts/`: Directory containing the Python scripts for uploading files to GCS and loading them into BigQuery.
+- `config/`: Directory containing configuration files.
+
+Para ejecutar el pipeline ejecute los siguientes pasos:
+
+1. Se crear el entorno virtual con el cual se ejecute el pipeline.
+
+   ```bash
+   python -m venv .venv
+   ```
+2. Se activa el entorno virtual
+
+   ```powershell
+   source .venv/bin/activate
+   ```
+3. Se instalan las dependencias
+
+   ```powershell
+   pip install -r requirements.txt
+   ```
+4. Se crean los buckets y las carpetas correspondientes en google cloud storage
+
+   ```powershell
+   # Crear un bucket
+   gsutil mb gs://nombre-del-bucket
+
+   # Crear una carpeta dentro del bucket
+   gsutil mkdir gs://nombre-del-bucket/nombre-de-la-carpeta
+   ```
+5. Se ejecuta el script python `upload_to_gcs.py`
+
+6. Para crear un entorno de Google Composer usando la línea de comandos de Google Cloud Shell, sigue estos pasos:
+
+###### Paso 1: Configurar el Proyecto
+
+1. Abre Google Cloud Shell desde la consola de Google Cloud.
+2. Configura el proyecto en el que deseas trabajar:
+   ```sh
+   gcloud config set project [PROJECT_ID]
+   ```
+
+###### Paso 2: Crear el Entorno de Cloud Composer
+
+1. Ejecuta el siguiente comando para crear un entorno de Cloud Composer. Reemplaza `[ENVIRONMENT_NAME]` con el nombre deseado para tu entorno y `[LOCATION]` con la región donde deseas crear el entorno (por ejemplo, `us-central1`):
+   ```sh
+   gcloud composer environments create [ENVIRONMENT_NAME] --location [LOCATION]
+   ```
+
+###### Paso 3: Configurar Variables de Entorno
+
+1. Establece las variables de entorno necesarias para tu entorno de Airflow en Cloud Composer:
+   ```sh
+   gcloud composer environments run [ENVIRONMENT_NAME] --location [LOCATION] variables -- set gcp_project [PROJECT_ID]
+   gcloud composer environments run [ENVIRONMENT_NAME] --location [LOCATION] variables -- set gcs_bucket gs://[YOUR_BUCKET_NAME]
+   gcloud composer environments run [ENVIRONMENT_NAME] --location [LOCATION] variables -- set gce_zone [YOUR_ZONE]
+   ```
+
+###### Paso 4: Subir Archivos a Cloud Storage
+
+1. Sube tus archivos DAG a la carpeta correspondiente en el bucket de Cloud Storage que se creó para tu entorno de Composer:
+   ```sh
+   gsutil cp path/to/your_dag.py gs://[YOUR_BUCKET_NAME]/dags/
+   ```
+
+Estos pasos te permitirán configurar y desplegar un entorno de Cloud Composer en Google Cloud utilizando Google Cloud Shell, siguiendo las mejores prácticas de seguridad y compatibilidad.
 
 Este diagrama ilustra el flujo de datos desde la recopilación hasta la visualización en Power BI para el proyecto de implementación de vehículos eléctricos en los cinco boroughs de Nueva York. A continuación se describe el proceso:
 
@@ -198,6 +271,7 @@ Este flujo de datos asegura una gestión eficiente y un análisis profundo de la
 ## Resultados
 
 Los resultados del análisis proporcionarán información valiosa sobre:
+
 - La rentabilidad esperada de invertir en el sector de transporte de pasajeros con automóviles.
 - El impacto potencial en la calidad del aire y la contaminación sonora.
 - La viabilidad de implementar vehículos eléctricos en la flota, incluyendo beneficios tanto ecológicos, económicos y sociales, y los desafíos asociados a ser pioneros del cambio.
@@ -219,7 +293,6 @@ Para el análisis de la viabilidad y sostenibilidad de una empresa de servicios 
    - **IONIQ 6 Long Range**: Este modelo es reconocido por su excelente rendimiento en términos de autonomía y economía, posicionándose como otra opción recomendada para la inversión.
 
 En resumen, la implementación de vehículos eléctricos en la flota de la empresa no solo es viable y sostenible, sino que también ofrece beneficios económicos y ambientales. Estos factores alinean a la empresa con las tendencias actuales del mercado hacia un futuro menos contaminado y más eficiente en términos energéticos.
-
 
 ## Contacto
 

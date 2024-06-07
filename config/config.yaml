@@ -1,0 +1,5 @@
+gcs_bucket: fuentes_datos_origen
+gcs_folder: Data
+data_folder: Data
+bigquery_project: taxis-de-nueva-york-423500
+bigquery_dataset: taxis_nyc
