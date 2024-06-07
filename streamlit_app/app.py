@@ -46,6 +46,11 @@ def resumen(dfs):
         # Fill with image placeholder with full width and height
         st.image("https://via.placeholder.com/800x400", use_column_width=True, caption="Image Placeholder")
         
+<<<<<<< HEAD
+=======
+
+    
+>>>>>>> d88239e4680f3024f1a0becce01ed42a338833c0
 
     
 
