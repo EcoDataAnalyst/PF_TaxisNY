@@ -65,7 +65,7 @@ def interpolacion(Modelo:str, Año:int, electrico:bool,dfs:list,hour_0,hour_f):
     return resumen(lista)
 
 
-df = pd.read_parquet(f'1.parquet')
+df = pd.read_parquet(f'1.parquet',engine='fastparquet')
 dfs.append(df)
 #cargar el dataset
 dfs = []
