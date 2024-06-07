@@ -18,8 +18,6 @@ Nuestro grupo está compuesto por profesionales apasionados por el análisis de 
   </a>
 </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T610j0k7-BM?si=8sVS3enRddX_01sk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ### Miembros del Equipo
 
 **Richard Robles** - Colombia 
