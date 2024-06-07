@@ -5,7 +5,7 @@ import numpy as np
 from datetime import timedelta
 
 #crear pagina
-st.set_page_config(page_title=  "Modelo de simulación",
+st.set_page_config(page_title=  "hola de simulación",
                      page_icon=':bar_chart:',
                      layout= 'wide')
 
