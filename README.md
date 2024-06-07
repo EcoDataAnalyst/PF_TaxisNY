@@ -156,7 +156,7 @@ Se analiza mediante los KPI de los datos actuales de los vehiculos de taxis y la
 
 Acá encontramos una descripción de la arquitectura de la aplicación.
 
-![](https://github.com/EcoDataAnalyst/PF_TaxisNY/blob/ETL-pipeline-rrobles/Images/ETL_Pipeline.jpg)
+![](https://raw.githubusercontent.com/EcoDataAnalyst/PF_TaxisNY/ETL-pipeline-rrobles/Images/ETL_Pipeline.jpg)
 
 ## ETL Pipeline
 
