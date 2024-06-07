@@ -71,7 +71,7 @@ dfs.append(df)
 dfs = []
 for i in range(1,991):  #__________________________________________________________________________________
    
-    df = pd.read_parquet(f'{i}.parquet')
+    df = pd.read_parquet(f'{i}.parquet', engine='fastparquet')
     dfs.append(df)
 
 electric = pd.read_parquet('df_final_electrico01.parquet')
