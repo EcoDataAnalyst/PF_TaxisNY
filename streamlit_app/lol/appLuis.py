@@ -1,4 +1,5 @@
 import pandas as pd
+from pandas import parquet
 import streamlit as st
 import numpy as np  
 import pyarrow as py
