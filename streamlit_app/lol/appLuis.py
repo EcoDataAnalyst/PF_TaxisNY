@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np  
+import pyarrow as py
 # import plotly_express as px
 from datetime import timedelta
 
