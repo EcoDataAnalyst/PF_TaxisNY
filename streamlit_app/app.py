@@ -3,6 +3,10 @@ import streamlit as st
 import numpy as np  
 # import plotly_express as px
 from datetime import timedelta
+<<<<<<< HEAD
+=======
+import pyarrow
+>>>>>>> cb6673e1c03cf95d715cfb47daedb60f6a9d317c
 
 #crear pagina
 st.set_page_config(page_title=  "Modelo de simulación",
@@ -19,6 +23,9 @@ color5 = "#8C8372"
 # Funciones del Modelo de Machine Learning
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cb6673e1c03cf95d715cfb47daedb60f6a9d317c
 #Función resumen, provee un resumen del conjunto de datos simulados, genera un unico DataFrame con el promedio de
 #de cada una de las variables de interés.
 def resumen(dfs):
@@ -36,6 +43,7 @@ def resumen(dfs):
         resultados.append(res)
         no += 1
     return pd.DataFrame(resultados).describe()
+<<<<<<< HEAD
 =======
     with col1:
         # Content for the first (narrower) column goes here
@@ -56,6 +64,12 @@ def resumen(dfs):
 
     
 >>>>>>> aa7faca843fbc10cf97a7ef60b5bf1f5d5948749
+=======
+
+
+#Función interpolación empata los datos especificos del vehiculo seleccionado y devuelve genera costos y emisiones 
+#de CO2. 
+>>>>>>> cb6673e1c03cf95d715cfb47daedb60f6a9d317c
 
 
 def interpolacion(Modelo:str, Año:int, electrico:bool,dfs:list,hour_0,hour_f):
@@ -79,10 +93,18 @@ def interpolacion(Modelo:str, Año:int, electrico:bool,dfs:list,hour_0,hour_f):
         lista.append(i)
     return resumen(lista)
 
+<<<<<<< HEAD
 #cargar el dataset
 dfs = []
 for i in range(1,1001):
     df = pd.read_parquet(f'Data_sim/{i}.parquet')
+=======
+
+#cargar el dataset
+dfs = []
+for i in range(1,1001):
+    df = pd.read_parquet(f'./Data_sim/{i}.parquet')
+>>>>>>> cb6673e1c03cf95d715cfb47daedb60f6a9d317c
     dfs.append(df)
 
 electric = pd.read_parquet('Data_sim/df_final_electrico01.parquet')
@@ -259,4 +281,8 @@ with right_column:
 st.divider()
 st.write("Otras estadisticas de las variables analizadas")
 st.dataframe(sim)
+<<<<<<< HEAD
 st.markdown('**********')
+=======
+st.markdown('**********')
+>>>>>>> cb6673e1c03cf95d715cfb47daedb60f6a9d317c
