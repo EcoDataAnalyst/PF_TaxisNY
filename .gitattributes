@@ -1,3 +1,0 @@
-*.parquet filter=lfs diff=lfs merge=lfs -text
-Data/dataset_incidentes_ruido_2024.csv filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
