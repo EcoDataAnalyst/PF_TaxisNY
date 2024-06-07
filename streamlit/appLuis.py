@@ -5,7 +5,7 @@ import numpy as np
 from datetime import timedelta
 
 #crear pagina
-st.set_page_config(page_title=  "hola de simulación",
+st.set_page_config(page_title=  "Modelo de simulación",
                      page_icon=':bar_chart:',
                      layout= 'wide')
 
@@ -107,7 +107,7 @@ df_selection= electric.query(
 #________________________________________ numero de vehiculos en flota
 # Cuadro de texto para ingresar un número
 numero = st.sidebar.number_input(
-    "Número de vehículos del mismo modelo:",
+    "Número de vehículos del mismo modelo: hola",
     min_value=0,  # valor mínimo permitido
     max_value=1000,  # valor máximo permitido
     value=1  # valor predeterminado
