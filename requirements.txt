@@ -1,4 +1,4 @@
-apache-airflow
+apache-airflow[gcp]
 google-cloud-storage
 google-cloud-bigquery
 pyyaml
@@ -10,4 +10,4 @@ openmeteo_requests
 bs4
 retry-requests
 requests-cache
-
+jupyter
