@@ -18,6 +18,7 @@ color5 = "#8C8372"
 
 # Funciones del Modelo de Machine Learning
 
+<<<<<<< HEAD
 #Función resumen, provee un resumen del conjunto de datos simulados, genera un unico DataFrame con el promedio de
 #de cada una de las variables de interés.
 def resumen(dfs):
@@ -35,10 +36,26 @@ def resumen(dfs):
         resultados.append(res)
         no += 1
     return pd.DataFrame(resultados).describe()
+=======
+    with col1:
+        # Content for the first (narrower) column goes here
+        st.write("Ingrese el inventario de sus vehiculos")
+>>>>>>> aa7faca843fbc10cf97a7ef60b5bf1f5d5948749
 
 
+<<<<<<< HEAD
 #Función interpolación empata los datos especificos del vehiculo seleccionado y devuelve genera costos y emisiones 
 #de CO2. 
+=======
+    with col2:
+        # Content for the second (wider) column goes here
+        st.write("Aca se muestra el resultado de la simulacion de la Huella de carbono")
+        # Fill with image placeholder with full width and height
+        st.image("https://via.placeholder.com/800x400", use_column_width=True, caption="Image Placeholder")
+        
+
+    
+>>>>>>> aa7faca843fbc10cf97a7ef60b5bf1f5d5948749
 
 
 def interpolacion(Modelo:str, Año:int, electrico:bool,dfs:list,hour_0,hour_f):
