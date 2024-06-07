@@ -21,20 +21,33 @@ Nuestro grupo está compuesto por profesionales apasionados por el análisis de 
 
 ### Miembros del Equipo
 
-**[Richard Robles]** - Colombia - Proyect manager - Data Engineering
-[linkedin](https://www.linkedin.com/in/richard-robles-7b88a978/)
+**Richard Robles** - Colombia 
 
-**[Abraham Gomez]** - Mexico - Data Scientist - Data Engineering
-[linkedin](https://www.linkedin.com/in/abraham-gomez-806934238/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/richard-robles-7b88a978/) - Proyect manager - Data Engineering
 
-**[Luis Meza]** - Mexico - Data Analyst
-[linkedin](https://www.linkedin.com/in/luis-angel-meza-caballero-800636264/)
+---
 
-**[Martin Molina]** - Argentina - Data Analyst
-[linkedin](https://www.linkedin.com/in/martin-molina-3b5131b7/)
+**Abraham Gomez** - Mexico
 
-**[Ivan Salva]** - Argentina - Data Scientist
-[linkedin](https://www.linkedin.com/in/ivan-salva-57a98630/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abraham-gomez-806934238/) - Data Scientist - Data Engineering
+
+---
+
+**Luis Meza** - Mexico
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-angel-meza-caballero-800636264/)- Data Analyst
+
+---
+
+**Martin Molina** - Argentina
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martin-molina-3b5131b7/) - Data Analyst
+
+---
+
+**Ivan Salva** - Argentina
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ivan-salva-57a98630/) - Data Scientist
 
 
 ## Nuestra Misión
