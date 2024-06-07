@@ -46,11 +46,8 @@ def resumen(dfs):
         # Fill with image placeholder with full width and height
         st.image("https://via.placeholder.com/800x400", use_column_width=True, caption="Image Placeholder")
         
-<<<<<<< HEAD
-=======
 
     
->>>>>>> d88239e4680f3024f1a0becce01ed42a338833c0
 
     
 
@@ -254,7 +251,7 @@ with right_column:
         f"""
         <div style="background-color: {color1}; padding: 10px; border-radius: 10px;">
             <center><h2 style="color: {color4};">Ingreso por viaje</h2></center>
-            <center><p style="color: {color5};">$ {numero * sim['amount_mean']['mean']:.2f}</p></center>
+            <center><p style="color: {color5};">$ {sim['amount_mean']['mean']:.2f}</p></center>
         </div>
         """,
         unsafe_allow_html=True

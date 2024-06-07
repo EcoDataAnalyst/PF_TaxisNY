@@ -18,6 +18,7 @@ Nuestro grupo está compuesto por profesionales apasionados por el análisis de 
   </a>
 </div>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T610j0k7-BM?si=8sVS3enRddX_01sk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Miembros del Equipo
 
@@ -171,8 +172,24 @@ Este diagrama ilustra el flujo de datos desde la recopilación hasta la visualiz
    - **BigQuery**: Los datos transformados se cargan en BigQuery, una plataforma de almacenamiento y análisis de datos escalable y de alto rendimiento.
 
 4. **Modelo de Machine Learning**:
-   - **Entrenamiento y Predicción**: Los datos en BigQuery se utilizan para entrenar un modelo de Machine Learning que genera predicciones y análisis avanzados.
-   - **Streamlit**: El modelo de ML se integra con una interfaz de usuario desarrollada en Streamlit, proporcionando una visualización interactiva y fácil de usar para los usuarios finales.
+
+   - **Probabilidad y estadistica**:  Los datos de los datasets se utilizan para determinar el comportamiento de los taxis en la ciudad de Nueva York. Se emplean métodos estadísticos y probabilísticos para describir cómo interactúan los taxis con NYC. Por ejemplo, se utilizan distribuciones de frecuencias para determinar las rutas que comúnmente solicitaría un usuario. Además, la demanda y los tiempos de espera se pueden determinar mediante el método M/M/1 de teoría de colas.
+   - **Método Montecarlo**:  Es una técnica numérica que nos ayuda a entender cómo se comportan sistemas complejos, como los taxis en Nueva York. Imagina que estamos simulando muchos viajes de taxis durante un período de tiempo. Cada vez que ejecutamos la simulación, obtenemos valores diferentes para cosas como la tarifa promedio o el tiempo de viaje. Pero a medida que repetimos la simulación muchas veces (digamos n veces), esos valores promedio comienzan a converger hacia un valor estable. Además, la desviación estándar (una medida de cuánto varían los valores) disminuye. Así que, al final, tenemos una buena idea de cómo se comportan los taxis en promedio. ¡Es como mirar un montón de trayectorias de taxis imaginarios para entender mejor la realidad!
+   - **Entrenamiento y Predicción**: Los datos en BigQuery se utilizan para entrenar un modelo de Machine Learning que genera predicciones y análisis avanzados.   
+   - **Streamlit**: Es una herramienta que permite crear interfaces de usuario interactivas para visualizar datos y modelos de Machine Learning. En nuestro caso, hemos integrado nuestro modelo de ML con una interfaz desarrollada en Streamlit. Esta interfaz es fácil de usar y está diseñada para los usuarios finales. 
+   
+   En la primera versión de nuestro modelo de ML, el usuario debe ingresar el modelo de automóvil. Luego, se simulan 1000 escenarios diversos en los que el vehículo presta sus servicios. Como resultado, obtenemos información valiosa:
+
+   - **Distancia recorrida durante un día**: Calculamos cuánto viaja el automóvil en un día.
+   - **Distancia promedio por viaje**: Determinamos la longitud típica de los viajes.
+   - **Ingreso diario**: Estimamos los ingresos totales por día.
+   - **Ingreso promedio por viaje**: Calculamos cuánto gana el conductor en promedio por cada viaje.
+   - **Utilidad después de mantenimientos y consumo de combustible/eléctrico**: Analizamos las ganancias netas después de considerar los costos de mantenimiento y el consumo de combustible o electricidad.
+   - **Emisiones totales de CO2**: Evaluamos el impacto ambiental.
+   - **Emisión promedio por servicio**: Calculamos las emisiones de CO2 por cada viaje.
+   - **Tabla con estadísticas generales**: Proporcionamos información relevante, como los tiempos muertos (espera) y el tiempo promedio por viaje.
+   
+   Si deseas probar nuestro modelo, puedes acceder a él a través de este [enlace](https://montecarlonyc.streamlit.app/#ingreso-por-viaje) o ingresando directamente en la URL: https://montecarlonyc.streamlit.app/#ingreso-por-viaje.
 
 5. **Visualización y Análisis**:
    - **Power BI**: Los datos y resultados del modelo de ML se visualizan en Power BI, permitiendo un análisis detallado y la generación de informes interactivos para la toma de decisiones.
